@@ -1,0 +1,19 @@
+
+version: '3'
+
+services:
+    edi:
+        # What to name the image
+        # If build key not present, looks for image "edi-node"
+        image: brycejechltc/edi-node:latest
+        # What to name the container
+        container_name: edi
+        restart: always
+    nginx:
+        image: brycejechltc/edi-nginx:latest
+        container_name: nginx
+        restart: always
+        ports:
+            - "80:80"
+        links:
+            - edi

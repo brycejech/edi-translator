@@ -1,0 +1,218 @@
+{
+    "meta": {
+        "transactionIdentifier": "997",
+        "senderInterchangeIdQualifier": "02",
+        "interchangeSenderId": "RASY",
+        "senderName": "Rains and Sons Transportation",
+        "receiverInterchangeIdQualifier": "01",
+        "interchangeReceiverId": "001339035CICS",
+        "receiverName": "KraftHeinz"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "functionalGroupResponseHeader",
+            "purpose": "",
+            "id": "AK1",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "functionalIdentifierCode",
+                    "description": "Functional Identifier Code"
+                },
+                {
+                    "position": 2,
+                    "name": "groupControlNumber",
+                    "description": "Group Control Number"
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "transactionSetResponseHeaderLoop",
+            "id": "AK2",
+            "max": 999999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "transactionSetResponseHeader",
+                    "purpose": "",
+                    "id": "AK2",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "transactionSetIdentifierCode",
+                            "description": "Transaction Set Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "transactionSetControlNumber",
+                            "description": "Transaction Set Control Number"
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "dataSegmentNoteLoop",
+                    "id": "AK3",
+                    "max": 999999,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "dataSegmentNote",
+                            "purpose": "",
+                            "id": "AK3",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "segmentIDCode",
+                                    "description": "Segment ID Code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "segmentPositionInTheTransactionSet",
+                                    "description": "Segment Position in the Transaction Set"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "loopIdentifierCode",
+                                    "description": "Loop Identifier Code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "segmentSyntaxErrorCode",
+                                    "description": "Segment Syntax Error Code"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "dataElementNote",
+                            "purpose": "",
+                            "id": "AK4",
+                            "max": 99,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "positionInSegment",
+                                    "description": "Position in Segment"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "dataElementReferenceNumber",
+                                    "description": "Data Element Reference Number"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "dataElementSyntaxErrorCode",
+                                    "description": "Data Element Syntax Error Code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "copyOfBadDataElement",
+                                    "description": "Copy of Bad Data Element"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "transactionSetResponseTrailer",
+                    "purpose": "",
+                    "id": "AK5",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "transactionSetAcknowledgementCode",
+                            "description": "Transaction Set Acknowledgement Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "transactionSetSyntaxErrorCode",
+                            "description": "Transaction Set Syntax Error Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "transactionSetSyntaxErrorCode2",
+                            "description": "Transaction Set Syntax Error Code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "transactionSetSyntaxErrorCode3",
+                            "description": "Transaction Set Syntax Error Code"
+                        },
+                        {
+                            "position": 5,
+                            "name": "transactionSetSyntaxErrorCode4",
+                            "description": "Transaction Set Syntax Error Code"
+                        },
+                        {
+                            "position": 6,
+                            "name": "transactionSetSyntaxErrorCode5",
+                            "description": "Transaction Set Syntax Error Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "functionalGroupResponseTrailer",
+            "purpose": "",
+            "id": "AK9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "functionalGroupAcknowledgementCode",
+                    "description": "Functional Group Acknowledgement Code"
+                },
+                {
+                    "position": 2,
+                    "name": "numberOfTransactionSetsIncluded",
+                    "description": "Number of Transaction Sets Included"
+                },
+                {
+                    "position": 3,
+                    "name": "numberOfReceivedTransactionSets",
+                    "description": "Number of Received Transaction Sets"
+                },
+                {
+                    "position": 4,
+                    "name": "numberOfAcceptedTransactionSets",
+                    "description": "Number of Accepted Transaction Sets"
+                },
+                {
+                    "position": 5,
+                    "name": "functionalGroupSyntaxErrorCode",
+                    "description": "Functional Group Syntax Error Code"
+                },
+                {
+                    "position": 6,
+                    "name": "functionalGroupSyntaxErrorCode2",
+                    "description": "Functional Group Syntax Error Code"
+                },
+                {
+                    "position": 7,
+                    "name": "functionalGroupSyntaxErrorCode3",
+                    "description": "Functional Group Syntax Error Code"
+                },
+                {
+                    "position": 8,
+                    "name": "functionalGroupSyntaxErrorCode4",
+                    "description": "Functional Group Syntax Error Code"
+                },
+                {
+                    "position": 9,
+                    "name": "functionalGroupSyntaxErrorCode5",
+                    "description": "Functional Group Syntax Error Code"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,1258 @@
+{
+    "meta": {
+        "transactionIdentifier": "210",
+        "senderInterchangeIdQualifier": "02",
+        "interchangeSenderId": "RASY",
+        "senderName": "Rains and Sons Transportation",
+        "receiverInterchangeIdQualifier": "12",
+        "interchangeReceiverId": "8004171844",
+        "recevierName": "Syncada / KraftHeinz"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForCarriersInvoice",
+            "purpose": "",
+            "id": "B3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "shipmentQualifier",
+                    "description": "Shipment Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "invoiceNumber",
+                    "description": "Invoice Number"
+                },
+                {
+                    "position": 3,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment Identification Number"
+                },
+                {
+                    "position": 4,
+                    "name": "shipmentMethodOfPayment",
+                    "description": "Shipment Method of Payment"
+                },
+                {
+                    "position": 5,
+                    "name": "weightUnitCode",
+                    "description": "Weight Unit Code"
+                },
+                {
+                    "position": 6,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 7,
+                    "name": "netAmountDue",
+                    "description": "Net Amount Due"
+                },
+                {
+                    "position": 8,
+                    "name": "correctionIndicator",
+                    "description": "Correction Indicator"
+                },
+                {
+                    "position": 9,
+                    "name": "deliveryDate",
+                    "description": "Delivery Date"
+                },
+                {
+                    "position": 10,
+                    "name": "dateTimeQualifier",
+                    "description": "Date/Time Qualifier"
+                },
+                {
+                    "position": 11,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "currency",
+            "purpose": "",
+            "id": "C3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "currenctyCode",
+                    "description": "Currency Code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RICarrierOrderNumber",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RIInboundOutboundIndicator",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RIMoveTypeAndSpotBidIndicator",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                },
+                {
+                    "position": 3,
+                    "name": "freeFormDescription",
+                    "description": "Free-Form Description"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RIBusinessSegment",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RITradingPartnerIdentification",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RIInvoiceOrOrderNumberToLinkAnEbill",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                },
+                {
+                    "position": 3,
+                    "name": "freeFormDescription",
+                    "description": "Free-Form Description"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "RIUserDefinedHeaderDataElement",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "dateTimeActualPickupDate",
+            "purpose": "",
+            "id": "G62",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "dateQualifier",
+                    "description": "DateQualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 3,
+                    "name": "timeQualifier",
+                    "description": "Time Qualifier"
+                },
+                {
+                    "position": 4,
+                    "name": "time",
+                    "description": "Time"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "dateTimeActualDeliveryDate",
+            "purpose": "",
+            "id": "G62",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "dateQualifier",
+                    "description": "DateQualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 3,
+                    "name": "timeQualifier",
+                    "description": "Time Qualifier"
+                },
+                {
+                    "position": 4,
+                    "name": "time",
+                    "description": "Time"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "routeInformationMotor",
+            "purpose": "",
+            "id": "R3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                },
+                {
+                    "position": 2,
+                    "name": "routingSequenceCode",
+                    "description": "Routing Sequence Code"
+                },
+                {
+                    "position": 4,
+                    "name": "transportationMethodOrTypeCode",
+                    "description": "Transportation Method/Code Type"
+                },
+                {
+                    "position": 9,
+                    "name": "freeeFormDescription",
+                    "description": "Free-Form Description"
+                },
+                {
+                    "position": 10,
+                    "name": "serviceLevelCodeServiceProvided",
+                    "description": "Service Level Code (Service Provided)"
+                },
+                {
+                    "position": 11,
+                    "name": "serviceLevelCodeServiceRequested",
+                    "description": "Service Level Code (Service Requested)"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "specialHandlingInstructions",
+            "purpose": "",
+            "id": "H3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 2,
+                    "name": "specialHandlingDescription",
+                    "description": "Special Handling Description"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "remarks",
+            "purpose": "",
+            "id": "K1",
+            "max": 10,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "freeFormMessage",
+                    "description": "Free-Form Message"
+                },
+                {
+                    "position": 2,
+                    "name": "freeFormMessage2",
+                    "description": "Free-Form Message"
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "sellingPartyNameLoop",
+            "id": "N1",
+            "max": 1,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "sellingPartyName",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "identificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "buyingPartyNameLoop",
+            "id": "N1",
+            "max": 1,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "buyingPartyName",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "identificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "shipFromPartyNameLoop",
+            "id": "N1",
+            "max": 1,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "shipFromPartyName",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "identificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "shipFromAddressInformation",
+                    "purpose": "",
+                    "id": "N3",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "addressInformation",
+                            "description": "Address Information"
+                        },
+                        {
+                            "position": 2,
+                            "name": "addressInformation2",
+                            "description": "Address Information"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "shipFromGeographicLocation",
+                    "purpose": "",
+                    "id": "N4",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "cityName",
+                            "description": "City Name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or Province Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "postalCode",
+                            "description": "Postal Code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "countryCode",
+                            "description": "Country Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "shipToPartyNameLoop",
+            "id": "N1",
+            "max": 1,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "shipToPartyName",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "identificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "shipToAddressInformation",
+                    "purpose": "",
+                    "id": "N3",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "addressInformation",
+                            "description": "Address Information"
+                        },
+                        {
+                            "position": 2,
+                            "name": "addressInformation2",
+                            "description": "Address Information"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "shipToGeographicLocation",
+                    "purpose": "",
+                    "id": "N4",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "cityName",
+                            "description": "City Name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or Province Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "postalCode",
+                            "description": "Postal Code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "countryCode",
+                            "description": "Country Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "equipmentDetailsLoop",
+            "id": "N7",
+            "max": 10,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "equipmentDetails",
+                    "purpose": "",
+                    "id": "N7",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "equipmentInitial",
+                            "description": "Equipment Initial"
+                        },
+                        {
+                            "position": 2,
+                            "name": "equipmentNumber",
+                            "description": "Equipment Number"
+                        },
+                        {
+                            "position": 3,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 4,
+                            "name": "weightQualifier",
+                            "description": "Weight Qualifier"
+                        },
+                        {
+                            "position": 8,
+                            "name": "volume",
+                            "description": "Volume"
+                        },
+                        {
+                            "position": 9,
+                            "name": "volumeUnitQualifier",
+                            "description": "Volume Unit Qualifier"
+                        },
+                        {
+                            "position": 17,
+                            "name": "weightUnitCode",
+                            "description": "Weight Unit Code"
+                        },
+                        {
+                            "position": 22,
+                            "name": "equipmentType",
+                            "description": "Equipment Type"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "sealNumbers",
+                    "purpose": "",
+                    "id": "M7",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "sealNumber",
+                            "description": "Seal Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "sealNumber2",
+                            "description": "Seal Number"
+                        },
+                        {
+                            "position": 3,
+                            "name": "sealNumber3",
+                            "description": "Seal Number"
+                        },
+                        {
+                            "position": 4,
+                            "name": "sealNumber4",
+                            "description": "Seal Number"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "stopOffDetailsLoop",
+            "id": "S5",
+            "max": 999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "stopOffDetails",
+                    "purpose": "",
+                    "id": "S5",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "stopSequenceNumber",
+                            "description": "Stop Sequence Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stopReaonCode",
+                            "description": "Stop Reason Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "stopOffDateTime",
+                    "purpose": "",
+                    "id": "G62",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "dateQualifier",
+                            "description": "Date Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "date",
+                            "description": "Date"
+                        },
+                        {
+                            "position": 3,
+                            "name": "timeQualifier",
+                            "description": "Time Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "time",
+                            "description": "Time"
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "stopOffNameLoop",
+                    "id": "N1",
+                    "max": 1,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "stopOffName",
+                            "purpose": "",
+                            "id": "N1",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "entityIdentifierCode",
+                                    "description": "Entity Identifier Code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "name",
+                                    "description": "Name"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "identificationCodeQualifier",
+                                    "description": "Identification Code Qualifier"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "identificationCode",
+                                    "description": "Identification Code"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "stopOffAddressInformation",
+                            "purpose": "",
+                            "id": "N3",
+                            "max": 2,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "addressInformation",
+                                    "description": "Address Information"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "addressInformation2",
+                                    "description": "Address Information"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "stopOffGeographicLocation",
+                            "purpose": "",
+                            "id": "N4",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "cityName",
+                                    "description": "City Name"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "stateOrProvinceCode",
+                                    "description": "State or Province Code"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "postalCode",
+                                    "description": "Postal Code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "countryCode",
+                                    "description": "Country Code"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "assignedNumberLoop",
+            "id": "LX",
+            "max": 9999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "assignedNumber",
+                    "purpose": "",
+                    "id": "LX",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "assignedNumber",
+                            "description": "Assigned Number"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RIGeneralLedgerAccountingCode",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        },
+                        {
+                            "position": 3,
+                            "name": "freeFormDescription",
+                            "description": "Free-Form Description"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RIStopSequenceNumber",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RIPurchaseOrderNumber",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RIShippersCustomerPurchaseOrderNumberOrUserDefinedLineItemCharacteristic",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RILineItemNumber",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RICarrierItemNumberOrGLAccountingCodeAlias",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "RIUserDefinedLineItemDataElement",
+                    "purpose": "",
+                    "id": "N9",
+                    "max": 3,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "descriptionMarksAndNumbers",
+                    "purpose": "",
+                    "id": "L5",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "ladingLineItemNumber",
+                            "description": "Lading Line Item Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "ladingDescription",
+                            "description": "Lading Description"
+                        },
+                        {
+                            "position": 3,
+                            "name": "commodityCode",
+                            "description": "Commodity Code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "commodityCodeQualifier",
+                            "description": "Commodity Code Qualifier"
+                        },
+                        {
+                            "position": 6,
+                            "name": "marksAndNumbers",
+                            "description": "Marks and Numbers"
+                        },
+                        {
+                            "position": 7,
+                            "name": "marksAndNumbersQualifier",
+                            "description": "Marks and Numbers Qualifier"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "hazardousMaterial",
+                    "purpose": "",
+                    "id": "H1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "hazardousMaterialCode",
+                            "description": "Hazardous Material Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "hazardousMaterialClassCode",
+                            "description": "Hazardous Material Class Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "hazardousMaterialCodeQualifier",
+                            "description": "Hazardous Material Code Qualifier"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "lineItemQuantityAndWeight",
+                    "purpose": "",
+                    "id": "L0",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 2,
+                            "name": "billedOrRatedAsQuantity",
+                            "description": "Billed/Rated-as Quantity"
+                        },
+                        {
+                            "position": 3,
+                            "name": "billedOrRatedAsQualifier",
+                            "description": "Billed/Rated-as Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 5,
+                            "name": "weightQualifier",
+                            "description": "Weight Qualifier"
+                        },
+                        {
+                            "position": 6,
+                            "name": "volume",
+                            "description": "Volume"
+                        },
+                        {
+                            "position": 7,
+                            "name": "volumeUnitQualifier",
+                            "description": "Volume Unit Qualifier"
+                        },
+                        {
+                            "position": 8,
+                            "name": "ladingQuantity",
+                            "description": "Lading Quantity"
+                        },
+                        {
+                            "position": 9,
+                            "name": "packagingFormCode",
+                            "description": "Packaging Form Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "rateAndCharges",
+                    "purpose": "",
+                    "id": "L1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "ladingLineItemNumber",
+                            "description": "Lading Line Item Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "freightRate",
+                            "description": "Freight Rate"
+                        },
+                        {
+                            "position": 3,
+                            "name": "rateOrValueQualifier",
+                            "description": "Rate/Value Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "charge",
+                            "description": "Charge"
+                        },
+                        {
+                            "position": 8,
+                            "name": "specialChargeOrAllowanceCode",
+                            "description": "Special Charge or Allowance Code"
+                        },
+                        {
+                            "position": 12,
+                            "name": "specialChargeDescription",
+                            "description": "Special Charge Description"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "measurement",
+                    "purpose": "",
+                    "id": "L4",
+                    "max": 10,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "length",
+                            "description": "Length"
+                        },
+                        {
+                            "position": 2,
+                            "name": "width",
+                            "description": "Width"
+                        },
+                        {
+                            "position": 3,
+                            "name": "height",
+                            "description": "Height"
+                        },
+                        {
+                            "position": 4,
+                            "name": "measurementUnitQualifier",
+                            "description": "Measurement Unit Qualifier"
+                        },
+                        {
+                            "position": 5,
+                            "name": "quantity",
+                            "description": "Quantity"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "tariffReference",
+                    "purpose": "",
+                    "id": "L7",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "ladingLineItemNumber",
+                            "description": "Lading Line Item Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "tariffAgencyCode",
+                            "description": "Tariff Agency Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "tariffNumber",
+                            "description": "Tariff Number"
+                        },
+                        {
+                            "position": 7,
+                            "name": "freightClassCode",
+                            "description": "Freight Class Code"
+                        },
+                        {
+                            "position": 10,
+                            "name": "effectiveDate",
+                            "description": "Effective Date"
+                        },
+                        {
+                            "position": 13,
+                            "name": "tariffDistance",
+                            "description": "Tariff Distance"
+                        },
+                        {
+                            "position": 14,
+                            "name": "distanceQualifier",
+                            "description": "Distance Qualifier"
+                        },
+                        {
+                            "position": 15,
+                            "name": "cityName",
+                            "description": "City Name"
+                        },
+                        {
+                            "position": 16,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or Province Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "totalWeightAndCharges",
+            "purpose": "",
+            "id": "L3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "weight",
+                    "description": "Weight"
+                },
+                {
+                    "position": 2,
+                    "name": "weightQualifier",
+                    "description": "Weight Qualifier"
+                },
+                {
+                    "position": 5,
+                    "name": "charge",
+                    "description": "Charge"
+                }
+            ]
+        }
+    ]
+}

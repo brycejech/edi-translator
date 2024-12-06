@@ -1,0 +1,978 @@
+{
+    "meta": {
+        "transactionIdentifier": "204",
+        "senderInterchangeIdQualifier": "01",
+        "interchangeSenderId": "001339035CICS",
+        "senderName": "KraftHeinz",
+        "receiverInterchangeIdQualifier": "02",
+        "interchangeReceiverId": "RASY",
+        "receiverName": "Rains and Sons Transportation"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForShipmentInformationTransaction",
+            "purpose": "",
+            "id": "B2",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "tariffServiceCode",
+                    "description": "Tariff Service Code"
+                },
+                {
+                    "position": 2,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                },
+                {
+                    "position": 3,
+                    "name": "standardPointLocationCode",
+                    "description": "Standard Point Location Code"
+                },
+                {
+                    "position": 4,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment Identification Number"
+                },
+                {
+                    "position": 5,
+                    "name": "weightUnitCode",
+                    "description": "Weight Unit Code"
+                },
+                {
+                    "position": 6,
+                    "name": "shipmentMethodOfPayment",
+                    "description": "Shipment Method of Payment"
+                },
+                {
+                    "position": 7,
+                    "name": "shipmentQualifier",
+                    "description": "Shipment Qualifier"
+                },
+                {
+                    "position": 8,
+                    "name": "totalEquipment",
+                    "description": "Total Equipment"
+                },
+                {
+                    "position": 9,
+                    "name": "shipmentWeightCode",
+                    "description": "Shipment Weight Code"
+                },
+                {
+                    "position": 10,
+                    "name": "customsDocumentationHandlingCode",
+                    "description": "Customs Documentation Handling Code"
+                },
+                {
+                    "position": 11,
+                    "name": "transportationTermsCode",
+                    "description": "Transportation Terms Code"
+                },
+                {
+                    "position": 12,
+                    "name": "paymentMethodCode",
+                    "description": "Payment Method Code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "setPurpose",
+            "purpose": "",
+            "id": "B2A",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "transactionSetPurposeCode",
+                    "description": "Transaction Set Purpose Code"
+                },
+                {
+                    "position": 2,
+                    "name": "applicationOrLoadType",
+                    "description": "Application or Load Type"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "businessInstructionsAndReferenceNumber",
+            "purpose": "",
+            "id": "L11",
+            "max": 50,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 3,
+                    "name": "description",
+                    "description": "Description"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "dateTime",
+            "purpose": "",
+            "id": "G62",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "dateQualifier",
+                    "description": "Date Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 3,
+                    "name": "timeQualifier",
+                    "description": "Time Qualifier"
+                },
+                {
+                    "position": 4,
+                    "name": "time",
+                    "description": "Time"
+                },
+                {
+                    "position": 5,
+                    "name": "timeCode",
+                    "description": "Time Code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "billOfLadingHandlingRequirements",
+            "purpose": "",
+            "id": "AT5",
+            "max": 6,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "handlingCode",
+                    "description": "Handling Code"
+                },
+                {
+                    "position": 2,
+                    "name": "servicesCode",
+                    "description": "Services Code"
+                },
+                {
+                    "position": 3,
+                    "name": "handlingDescription",
+                    "description": "Handling Description"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "palletInformation",
+            "purpose": "",
+            "id": "PLD",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "quantityOfPalletsShipped",
+                    "description": "Quantity of Pallets Shipped"
+                },
+                {
+                    "position": 2,
+                    "name": "palletExchangeCode",
+                    "description": "Pallet Exchange Code"
+                },
+                {
+                    "position": 3,
+                    "name": "weightUnitCode",
+                    "description": "Weight Unit Code"
+                },
+                {
+                    "position": 4,
+                    "name": "weight",
+                    "description": "Weight"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "noteSpecialInstruction",
+            "purpose": "",
+            "id": "NTE",
+            "max": 10,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "noteReferenceCode",
+                    "description": "Note Reference Code"
+                },
+                {
+                    "position": 2,
+                    "name": "description",
+                    "description": "Description"
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "nameLoop",
+            "id": "N1",
+            "max": 5,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "name",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "identificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        },
+                        {
+                            "position": 5,
+                            "name": "entityRelationshipCode",
+                            "description": "Entity Relationship Code"
+                        },
+                        {
+                            "position": 6,
+                            "name": "entityIdentifierCode2",
+                            "description": "Entity Identifier Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "additionalNameInformation",
+                    "purpose": "",
+                    "id": "N2",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name2",
+                            "description": "Name"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "addressInformation",
+                    "purpose": "",
+                    "id": "N3",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "addressInformation",
+                            "description": "Address Information"
+                        },
+                        {
+                            "position": 2,
+                            "name": "addressInformation2",
+                            "description": "Address Information"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "geographicLocatin",
+                    "purpose": "",
+                    "id": "N4",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "cityName",
+                            "description": "City Name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or Province Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "postalCode",
+                            "description": "Postal Code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "countryCode",
+                            "description": "Country Code"
+                        },
+                        {
+                            "position": 5,
+                            "name": "locationQualifier",
+                            "description": "Location Qualifier"
+                        },
+                        {
+                            "position": 6,
+                            "name": "locationIdentifier",
+                            "description": "Location Identifierd"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "contact",
+                    "purpose": "",
+                    "id": "G61",
+                    "max": 3,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "contactFunctionCode",
+                            "description": "Contact Function Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "communicationNumberQualifier",
+                            "description": "Communication Number Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "communicationNumber",
+                            "description": "Communication Number"
+                        },
+                        {
+                            "position": 5,
+                            "name": "contactInquiryReference"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "equipmentDetailsLoop",
+            "id": "N7",
+            "max": 10,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "equipmentDetails",
+                    "purpose": "",
+                    "id": "N7",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "equipmentInitial",
+                            "description": "Equipment Initial"
+                        },
+                        {
+                            "position": 2,
+                            "name": "equipmentNumber",
+                            "description": "Equipment Number"
+                        },
+                        {
+                            "position": 3,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 4,
+                            "name": "weightQualifier",
+                            "description": "Weight Qualifier"
+                        },
+                        {
+                            "position": 5,
+                            "name": "tareWeight",
+                            "description": "Tare Weight"
+                        },
+                        {
+                            "position": 6,
+                            "name": "weightAllowance",
+                            "description": "Weight Allowance"
+                        },
+                        {
+                            "position": 7,
+                            "name": "dunnage",
+                            "description": "Dunnage"
+                        },
+                        {
+                            "position": 8,
+                            "name": "volume",
+                            "description": "Volume"
+                        },
+                        {
+                            "position": 9,
+                            "name": "volumeUnitQualifier",
+                            "description": "Volume Unit Qualifier"
+                        },
+                        {
+                            "position": 10,
+                            "name": "ownershipCode",
+                            "description": "Ownership Code"
+                        },
+                        {
+                            "position": 11,
+                            "name": "equipmentDescriptionCode",
+                            "description": "Equipment Description Code"
+                        },
+                        {
+                            "position": 12,
+                            "name": "standardCarrierAlphaCode",
+                            "description": "Standard Carrier Alpha Code"
+                        },
+                        {
+                            "position": 13,
+                            "name": "temperatureCode",
+                            "description": "Temperature Code"
+                        },
+                        {
+                            "position": 14,
+                            "name": "position",
+                            "description": "Position"
+                        },
+                        {
+                            "position": 15,
+                            "name": "equipmentLength",
+                            "description": "Equipment Length"
+                        },
+                        {
+                            "position": 16,
+                            "name": "tareQualifierCode",
+                            "description": "Tare Qualifier Code"
+                        },
+                        {
+                            "position": 17,
+                            "name": "weightUnitCode",
+                            "description": "Weight Unit Code"
+                        },
+                        {
+                            "position": 18,
+                            "name": "equipmentNumberCheckDigit",
+                            "description": "Equipment Number Check Digit"
+                        },
+                        {
+                            "position": 19,
+                            "name": "typeOfServiceCode",
+                            "description": "Type of Service Code"
+                        },
+                        {
+                            "position": 20,
+                            "name": "height",
+                            "description": "Height"
+                        },
+                        {
+                            "position": 21,
+                            "name": "width",
+                            "description": "Width"
+                        },
+                        {
+                            "position": 22,
+                            "name": "equipmentType",
+                            "description": "Equipment Type"
+                        },
+                        {
+                            "position": 23,
+                            "name": "standardCarrierAlphaCode2",
+                            "description": "Standard Carrier Alpha Code"
+                        },
+                        {
+                            "position": 24,
+                            "name": "carTypeCode",
+                            "description": "Car Type Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "stopOffDetailsLoop",
+            "id": "S5",
+            "max": 999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "stopOffDetails",
+                    "purpose": "",
+                    "id": "S5",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "stopSequenceNumber",
+                            "description": "Stop Sequence Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stopReasonCode",
+                            "description": "Stop Reason Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 4,
+                            "name": "weightUnitCode",
+                            "description": "Weight Unit Code"
+                        },
+                        {
+                            "position": 5,
+                            "name": "numberOfUnitsShipped",
+                            "description": "Number of Units Shipped"
+                        },
+                        {
+                            "position": 6,
+                            "name": "unitOrBasisForMeasurementCode",
+                            "description": "Unit of Basis for Measurement Code"
+                        },
+                        {
+                            "position": 7,
+                            "name": "volume",
+                            "description": "Volume"
+                        },
+                        {
+                            "position": 8,
+                            "name": "volumeUnitQualifier",
+                            "description": "Volume Unit Qualifier"
+                        },
+                        {
+                            "position": 9,
+                            "name": "description",
+                            "description": "Description"
+                        },
+                        {
+                            "position": 10,
+                            "name": "standardPointLocationCode",
+                            "description": "Standard Point Location Code"
+                        },
+                        {
+                            "position": 11,
+                            "name": "accomplishCode",
+                            "description": "Accomplish Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "businessInstructionsAndReferenceNumber",
+                    "purpose": "",
+                    "id": "L11",
+                    "max": 50,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 3,
+                            "name": "description",
+                            "description": "Description"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "dateTime",
+                    "purpose": "",
+                    "id": "G62",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "dateQualifier",
+                            "description": "Date Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "date",
+                            "description": "Date"
+                        },
+                        {
+                            "position": 3,
+                            "name": "timeQualifier",
+                            "description": "Time Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "time",
+                            "description": "Time"
+                        },
+                        {
+                            "position": 5,
+                            "name": "timeCode",
+                            "description": "Time Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "noteSpecialInstruction",
+                    "purpose": "",
+                    "id": "NTE",
+                    "max": 20,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "noteReferenceCode",
+                            "description": "Note Reference Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "description",
+                            "description": "Description"
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "nameLoop",
+                    "id": "N1",
+                    "max": 1,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "name",
+                            "purpose": "",
+                            "id": "N1",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "entityIdentifierCode",
+                                    "description": "Entity Identifier Code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "name",
+                                    "description": "Name"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "identificationCodeQualifier",
+                                    "description": "Identification Code Qualifier"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "identificationCode",
+                                    "description": "Identification Code"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "entityRelationshipCode",
+                                    "description": "Entity Relationship Code"
+                                },
+                                {
+                                    "position": 6,
+                                    "name": "entityIdentifierCode2",
+                                    "description": "Entity Identifier Code"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "additionalNameInformation",
+                            "purpose": "",
+                            "id": "N2",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "name",
+                                    "description": "Name"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "name2",
+                                    "description": "Name"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "addressInformation",
+                            "purpose": "",
+                            "id": "N3",
+                            "max": 2,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "addressInformation",
+                                    "description": "Address Information"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "addressInformation2",
+                                    "description": "Address Information"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "geographicLocation",
+                            "purpose": "",
+                            "id": "N4",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "cityName",
+                                    "description": "City Name"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "stateOrProvinceCode",
+                                    "description": "State or Province Code"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "postalCode",
+                                    "description": "Postal Code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "countryCode",
+                                    "description": "Country Code"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "locationQualifier",
+                                    "description": "Location Qualifier"
+                                },
+                                {
+                                    "position": 6,
+                                    "name": "locationIdentifier",
+                                    "description": "Location Identifier"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "contact",
+                            "purpose": "",
+                            "id": "G61",
+                            "max": 3,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "contactFunctionCode",
+                                    "description": "Contact Function Code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "name",
+                                    "description": "Name"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "communicationNumberQualifier",
+                                    "description": "Communication Number Qualifier"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "communicationNumber",
+                                    "description": "Communication Number"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "contactInquiryReference",
+                                    "description": "Contact Inquiry Reference"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "orderIdentificationDetailLoop",
+                    "id": "OID",
+                    "max": 999,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "orderIdentificationDetail",
+                            "purpose": "",
+                            "id": "OID",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "referenceIdentification",
+                                    "description": "Reference Identification"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "purchaseOrderNumber",
+                                    "description": "Purchase Order Number"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "referenceIdentification2",
+                                    "description": "Reference Identification"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "unitOrBasisForMeasurementCode",
+                                    "description": "Unit or Basis for Measurement Code"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "quantity",
+                                    "description": "Quantity"
+                                },
+                                {
+                                    "position": 6,
+                                    "name": "weightUnitCode",
+                                    "description": "Weight Unit Code"
+                                },
+                                {
+                                    "position": 7,
+                                    "name": "weight",
+                                    "description": "Weight"
+                                },
+                                {
+                                    "position": 8,
+                                    "name": "volumeUnitQualifier",
+                                    "description": "Volume Unit Qualifier"
+                                },
+                                {
+                                    "position": 9,
+                                    "name": "volume",
+                                    "description": "Volume"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "totalWeightAndCharges",
+            "purpose": "",
+            "id": "L3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "weight",
+                    "description": "Weight"
+                },
+                {
+                    "position": 2,
+                    "name": "weightQualifier",
+                    "description": "Weight Qualifier"
+                },
+                {
+                    "position": 3,
+                    "name": "freightRate",
+                    "description": "Freight Rate"
+                },
+                {
+                    "position": 4,
+                    "name": "rateValueQualifier",
+                    "description": "Rate/Value Qualifier"
+                },
+                {
+                    "position": 5,
+                    "name": "charge",
+                    "description": "Charge"
+                },
+                {
+                    "position": 6,
+                    "name": "advances",
+                    "description": "Advances"
+                },
+                {
+                    "position": 7,
+                    "name": "prepaidAmount",
+                    "description": "Prepaid Amount"
+                },
+                {
+                    "position": 8,
+                    "name": "specialChargeOrAllowanceCode",
+                    "description": "Special Charge or Allowance Code"
+                },
+                {
+                    "position": 9,
+                    "name": "volume",
+                    "description": "Volume"
+                },
+                {
+                    "position": 10,
+                    "name": "volumeUnitQualifier",
+                    "description": "Volume Unit Qualifier"
+                },
+                {
+                    "position": 11,
+                    "name": "ladingQuantity",
+                    "description": "Lading Quantity"
+                },
+                {
+                    "position": 12,
+                    "name": "weightUnitCode",
+                    "description": "Weight Unit Code"
+                },
+                {
+                    "position": 13,
+                    "name": "tariffNumber",
+                    "description": "Tariff Number"
+                },
+                {
+                    "position": 14,
+                    "name": "declaredValue",
+                    "description": "Declared Value"
+                },
+                {
+                    "position": 15,
+                    "name": "rateValueQualifier2",
+                    "description": "Rate/Value Qualifier"
+                }
+            ]
+        }
+    ]
+}

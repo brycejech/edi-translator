@@ -1,0 +1,317 @@
+{
+    "interchangeControlHeader": {
+        "identifier": "ISA",
+        "elementDelimiter": "*",
+        "authorizationInformationQualifier": "00",
+        "authorizationInformation": "",
+        "securityInformationQualifier": "00",
+        "securityInformation": "",
+        "senderIDQualifier": "02",
+        "interchangeSenderID": "ACDT",
+        "receiverIDQualifier": "01",
+        "interchangeReceiverID": "CASSMTRFRT",
+        "interchangeDate": "060415",
+        "interchangeTime": "1202",
+        "interchangeControlStandardsIdentifier": "U",
+        "interchangeControlVersionNumber": "00401",
+        "interchangeControlNumber": "000000004",
+        "acknowledgementRequested": "0",
+        "testIndicator": "T",
+        "componentElementSeparator": ">",
+        "segmentDelimiter": "~"
+    },
+    "functionalGroupHeader": {
+        "functionalIdentifierCode": "IM",
+        "applicationSendersCode": "ACDT",
+        "applicationReceiversCode": "CASS999999T",
+        "date": "20060415",
+        "time": "1202",
+        "groupControlNumber": "4",
+        "responsibleAgencyCode": "X",
+        "versionReleaseIndustryIdentifierCode": "004010"
+    },
+    "transactions": [
+        {
+            "transactionSetIdentifierCode": "210",
+            "transactionSetControlNumber": "40001",
+            "numberOfIncludedSegments": 17,
+            "transaction": {
+                "beginningSegmentForCarriersInvoice": {
+                    "invoiceNumber": "124190",
+                    "shipmentIdentificationNumber": "755378",
+                    "shipmentMethodOfPayment": "PP",
+                    "weightUnitCode": null,
+                    "date": "20060410",
+                    "netAmountDue": "45000",
+                    "correctionIndicator": null,
+                    "deliveryDate": "20060408",
+                    "dateTimeQualifier": "140",
+                    "standardCarrierAlphaCode": "ACDT",
+                    "shipDate": null
+                },
+                "dateTime": {
+                    "dateQualifier": "86",
+                    "date": "20060407",
+                    "timeQualifier": null,
+                    "time": null,
+                    "timeCode": null
+                },
+                "contactLoop": [
+                    {
+                        "name": {
+                            "entityIdentifierCode": "SH",
+                            "name": "ZEPHYRHILLS SPRING WATER",
+                            "indentificationCodeQualifier": "93",
+                            "identificationCode": "CASS999"
+                        },
+                        "addressInformation": {
+                            "addressInformation": "4330  20TH ST"
+                        },
+                        "geographicLocation": {
+                            "cityName": "ZEPHYRHILLS",
+                            "stateOrProvinceCode": "FL",
+                            "postalCode": "33540",
+                            "countryCode": null
+                        }
+                    },
+                    {
+                        "name": {
+                            "entityIdentifierCode": "CN",
+                            "name": "COSTCO 00091",
+                            "indentificationCodeQualifier": null,
+                            "identificationCode": null
+                        },
+                        "addressInformation": {
+                            "addressInformation": "1890 UNIVERSITY DR"
+                        },
+                        "geographicLocation": {
+                            "cityName": "DAVIE",
+                            "stateOrProvinceCode": "FL",
+                            "postalCode": "33324",
+                            "countryCode": null
+                        }
+                    }
+                ],
+                "equipmentDetailsLoop": [
+                    {
+                        "equipmentDetails": {
+                            "equipmentNumber": "X",
+                            "equipmentDescriptionCode": "TL"
+                        }
+                    }
+                ],
+                "shipmentPurchaseOrderDetailLoop": [
+                    {
+                        "shipmentPurchaseOrderDetail": {
+                            "purchaseOrderNumber": "755378",
+                            "referenceIdentification": null,
+                            "unitOrBasisForMeasurementCode": null,
+                            "quantity": null,
+                            "weightUnitCode": null,
+                            "weight": null,
+                            "applicationErrorConditionCode": null,
+                            "referenceIdentification2": null
+                        }
+                    }
+                ],
+                "assignedNumberLoop": [
+                    {
+                        "assignedNumber": {
+                            "assignedNumber": "1"
+                        },
+                        "descriptionMarksAndNumbers": {
+                            "ladingLineItemNumber": "1",
+                            "ladingDescription": "WATER",
+                            "commodityCode": null,
+                            "commodityCodeQualifier": null,
+                            "packagingCode": null,
+                            "marksAndNumbers": null,
+                            "marksAndNumbersQualifier": null,
+                            "commodityCodeQualifier2": null,
+                            "compartmentIdCode": null
+                        },
+                        "lineItemQuantityAndWeight": {
+                            "ladingLineItemNumber": "1",
+                            "billedOrRatedAsQuantity": "45154",
+                            "billedOrRatedAsQualifier": "FR",
+                            "weight": "45154",
+                            "weightQualifier": "G",
+                            "ladingQuantity": "1044",
+                            "packagingFormCode": "PCS",
+                            "weightUnitCode": null
+                        },
+                        "rateAndCharges": {
+                            "ladingLineItemNumber": "1",
+                            "freightRate": "450",
+                            "rateValueQualifier": "FR",
+                            "charge": "45000",
+                            "specialChargeOrAllowanceCode": null
+                        }
+                    }
+                ],
+                "totalWeightAndCharges": {
+                    "weight": "45154",
+                    "weightQualifier": "N",
+                    "freightRate": null,
+                    "rateValueQualifier": null,
+                    "charge": "45000",
+                    "advances": null,
+                    "prepaidAmount": null,
+                    "specialChargeOrAllowanceCode": null,
+                    "volume": null,
+                    "volumeUnitQualifier": null,
+                    "ladingQuantity": "1044",
+                    "weightUnitCode": null,
+                    "tariffNumber": null,
+                    "declaredValue": null,
+                    "rateValueQualifier2": null
+                }
+            }
+        },
+        {
+            "transactionSetIdentifierCode": "210",
+            "transactionSetControlNumber": "40002",
+            "numberOfIncludedSegments": 17,
+            "transaction": {
+                "beginningSegmentForCarriersInvoice": {
+                    "invoiceNumber": "124192",
+                    "shipmentIdentificationNumber": "755384",
+                    "shipmentMethodOfPayment": "PP",
+                    "weightUnitCode": null,
+                    "date": "20060412",
+                    "netAmountDue": "45000",
+                    "correctionIndicator": null,
+                    "deliveryDate": "20060408",
+                    "dateTimeQualifier": "140",
+                    "standardCarrierAlphaCode": "ACDT",
+                    "shipDate": null
+                },
+                "dateTime": {
+                    "dateQualifier": "86",
+                    "date": "20060407",
+                    "timeQualifier": null,
+                    "time": null,
+                    "timeCode": null
+                },
+                "contactLoop": [
+                    {
+                        "name": {
+                            "entityIdentifierCode": "SH",
+                            "name": "ZEPHYRHILLS SPRING WATER",
+                            "indentificationCodeQualifier": "93",
+                            "identificationCode": "CASS999"
+                        },
+                        "addressInformation": {
+                            "addressInformation": "4330  20TH ST"
+                        },
+                        "geographicLocation": {
+                            "cityName": "ZEPHYRHILLS",
+                            "stateOrProvinceCode": "FL",
+                            "postalCode": "33540",
+                            "countryCode": null
+                        }
+                    },
+                    {
+                        "name": {
+                            "entityIdentifierCode": "CN",
+                            "name": "COSTCO WHOLESALE 0182",
+                            "indentificationCodeQualifier": null,
+                            "identificationCode": null
+                        },
+                        "addressInformation": {
+                            "addressInformation": "14585 BISCAYNE BLVD"
+                        },
+                        "geographicLocation": {
+                            "cityName": "NORTH MIAMI",
+                            "stateOrProvinceCode": "FL",
+                            "postalCode": "33161",
+                            "countryCode": null
+                        }
+                    }
+                ],
+                "equipmentDetailsLoop": [
+                    {
+                        "equipmentDetails": {
+                            "equipmentNumber": "9912",
+                            "equipmentDescriptionCode": "TL"
+                        }
+                    }
+                ],
+                "shipmentPurchaseOrderDetailLoop": [
+                    {
+                        "shipmentPurchaseOrderDetail": {
+                            "purchaseOrderNumber": "755384",
+                            "referenceIdentification": null,
+                            "unitOrBasisForMeasurementCode": null,
+                            "quantity": null,
+                            "weightUnitCode": null,
+                            "weight": null,
+                            "applicationErrorConditionCode": null,
+                            "referenceIdentification2": null
+                        }
+                    }
+                ],
+                "assignedNumberLoop": [
+                    {
+                        "assignedNumber": {
+                            "assignedNumber": "1"
+                        },
+                        "descriptionMarksAndNumbers": {
+                            "ladingLineItemNumber": "1",
+                            "ladingDescription": "WATER",
+                            "commodityCode": null,
+                            "commodityCodeQualifier": null,
+                            "packagingCode": null,
+                            "marksAndNumbers": null,
+                            "marksAndNumbersQualifier": null,
+                            "commodityCodeQualifier2": null,
+                            "compartmentIdCode": null
+                        },
+                        "lineItemQuantityAndWeight": {
+                            "ladingLineItemNumber": "1",
+                            "billedOrRatedAsQuantity": "45410",
+                            "billedOrRatedAsQualifier": "FR",
+                            "weight": "45410",
+                            "weightQualifier": "G",
+                            "ladingQuantity": "1072",
+                            "packagingFormCode": "PCS",
+                            "weightUnitCode": null
+                        },
+                        "rateAndCharges": {
+                            "ladingLineItemNumber": "1",
+                            "freightRate": "450",
+                            "rateValueQualifier": "FR",
+                            "charge": "45000",
+                            "specialChargeOrAllowanceCode": null
+                        }
+                    }
+                ],
+                "totalWeightAndCharges": {
+                    "weight": "45410",
+                    "weightQualifier": "N",
+                    "freightRate": null,
+                    "rateValueQualifier": null,
+                    "charge": "45000",
+                    "advances": null,
+                    "prepaidAmount": null,
+                    "specialChargeOrAllowanceCode": null,
+                    "volume": null,
+                    "volumeUnitQualifier": null,
+                    "ladingQuantity": "1072",
+                    "weightUnitCode": null,
+                    "tariffNumber": null,
+                    "declaredValue": null,
+                    "rateValueQualifier2": null
+                }
+            }
+        }
+    ],
+    "functionalGroupTrailer": {
+        "numberOfTransactionSetsIncluded": "2",
+        "groupControlNumber": "4"
+    },
+    "interchangeControlTrailer": {
+        "numberOfIncludedFunctionalGroups": "1",
+        "interchangeControlNumber": "000000004"
+    }
+}

@@ -1,0 +1,1125 @@
+{
+    "interchangeControlHeader": {
+        "identifier": "ISA",
+        "elementDelimiter": "*",
+        "authorizationInformationQualifier": "00",
+        "authorizationInformation": "",
+        "securityInformationQualifier": "00",
+        "securityInformation": "",
+        "senderIDQualifier": "ZZ",
+        "interchangeSenderID": "MGSEABOARD",
+        "receiverIDQualifier": "02",
+        "interchangeReceiverID": "RASY",
+        "interchangeDate": "190131",
+        "interchangeTime": "1226",
+        "interchangeControlStandardsIdentifier": "U",
+        "interchangeControlVersionNumber": "00401",
+        "interchangeControlNumber": "000032837",
+        "acknowledgementRequested": "0",
+        "testIndicator": "P",
+        "componentElementSeparator": ":",
+        "segmentDelimiter": "~"
+    },
+    "functionalGroupHeader": {
+        "functionalIdentifierCode": "SM",
+        "applicationSendersCode": "MGSEABOARD",
+        "applicationReceiversCode": "RASY",
+        "date": "20190131",
+        "time": "122641",
+        "groupControlNumber": "8558",
+        "responsibleAgencyCode": "X",
+        "versionReleaseIndustryIdentifierCode": "004010"
+    },
+    "transactions": [
+        {
+            "transactionSetIdentifierCode": "204",
+            "transactionSetControlNumber": "085580001",
+            "numberOfIncludedSegments": "160",
+            "transaction": {
+                "beginningSegmentForShipmentInformationTransaction": {
+                    "standardCarrierAlphaCode": "RASY",
+                    "shipmentIdentificationNumber": "4085464",
+                    "shipmentMethodOfPayment": "PP"
+                },
+                "setPurpose": {
+                    "transacionSetPurposeCode": "00",
+                    "applicationType": "LT"
+                },
+                "billOfLadingHandlingRequirements": [
+                    {
+                        "specialHandlingCode": null,
+                        "specialServicesCode": "CLN",
+                        "specialHandlingDescription": null
+                    },
+                    {
+                        "specialHandlingCode": null,
+                        "specialServicesCode": "FSH",
+                        "specialHandlingDescription": null
+                    },
+                    {
+                        "specialHandlingCode": null,
+                        "specialServicesCode": "FZN",
+                        "specialHandlingDescription": null
+                    },
+                    {
+                        "specialHandlingCode": null,
+                        "specialServicesCode": "RLS",
+                        "specialHandlingDescription": null
+                    }
+                ],
+                "noteSpecialInstruction": [
+                    {
+                        "noteReferenceCode": null,
+                        "description": "Special Instructions   . Shipping Instructions .. Special Instructions  Call for"
+                    },
+                    {
+                        "noteReferenceCode": null,
+                        "description": " appt 337-896-1059. If no answer call 337-278-0597. Shipping Instructions .. Spe"
+                    },
+                    {
+                        "noteReferenceCode": null,
+                        "description": "cial Instructions  Call for appt 337-896-1059. If no answer call 337-278-0597. S"
+                    },
+                    {
+                        "noteReferenceCode": null,
+                        "description": "hipping Instructions . Special Instructions  Call for appt 337-896-1059. If no a"
+                    },
+                    {
+                        "noteReferenceCode": null,
+                        "description": "nswer call 337-278-0597. Shipping Instructions ."
+                    }
+                ],
+                "contactLoop": [
+                    {
+                        "name": {
+                            "entityIdentifierCode": "BT",
+                            "name": "Seaboard Foods",
+                            "identificationCodeQualifier": "93",
+                            "identificationCode": "LOC90"
+                        },
+                        "addressInformation": {
+                            "addressInformation": "9000 West 67th Street",
+                            "addressInformation2": null
+                        },
+                        "geographicLocation": {
+                            "cityName": "Shawnee Mission",
+                            "stateOrProvinceCode": "KS",
+                            "postalCode": "662023638",
+                            "countryCode": "USA"
+                        },
+                        "contact": {
+                            "contactFunctionCode": "IC",
+                            "name": "Rebecca Smith",
+                            "communicationNumberQualifier": "TE",
+                            "contactInquiryReference": "913-676-8884"
+                        }
+                    }
+                ],
+                "stopOffDetailsLoop": [
+                    {
+                        "stopOffDetails": {
+                            "stopSequenceNumber": "1",
+                            "stopReasonCode": "CL"
+                        },
+                        "businessInstructionsAndReferenceNumber": [
+                            {
+                                "referenceIdentification": "1781441",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "0367803636",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "GP1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "Domestic",
+                                "referenceIdentificationQualifier": "ST",
+                                "description": "Movement Type"
+                            },
+                            {
+                                "referenceIdentification": "02/02/2019 17 02",
+                                "referenceIdentificationQualifier": "LO",
+                                "description": "Deadline Departure"
+                            },
+                            {
+                                "referenceIdentification": "RT122134",
+                                "referenceIdentificationQualifier": "RH",
+                                "description": "Route ID"
+                            },
+                            {
+                                "referenceIdentification": "26.0 F",
+                                "referenceIdentificationQualifier": "MT",
+                                "description": "Max Temp"
+                            },
+                            {
+                                "referenceIdentification": "1785288",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "22751",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "CF1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "1753961",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "TL",
+                                "referenceIdentificationQualifier": "MD",
+                                "description": "Mode"
+                            },
+                            {
+                                "referenceIdentification": "CLR325930",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            },
+                            {
+                                "referenceIdentification": "CLR326458",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            },
+                            {
+                                "referenceIdentification": "CLR326431",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            }
+                        ],
+                        "dateTime": [
+                            {
+                                "dateQualifier": "37",
+                                "date": "20190202",
+                                "timeQualifier": "I",
+                                "time": "0000"
+                            },
+                            {
+                                "dateQualifier": "38",
+                                "date": "20190202",
+                                "timeQualifier": "K",
+                                "time": "2359"
+                            }
+                        ],
+                        "shipmentWeightPackagingAndQuantityData": {
+                            "weightQualifier": "G",
+                            "weightCodeUnit": "L",
+                            "weight": "42649.32",
+                            "ladingQuantity": "1806"
+                        },
+                        "nameLoop": [
+                            {
+                                "name": {
+                                    "entityIdentifierCode": "SH",
+                                    "name": "Guymon Plant One",
+                                    "identificationCodeQualifier": "93",
+                                    "identificationCode": "GP1"
+                                },
+                                "addressInformation": {
+                                    "addressInformation": "2700 NE 28th Street",
+                                    "addressInformation2": "GP1"
+                                },
+                                "geographicLocation": {
+                                    "cityName": "Guymon",
+                                    "stateOrProvinceCode": "OK",
+                                    "postalCode": "73942",
+                                    "countryCode": "USA"
+                                },
+                                "contact": {
+                                    "contactFunctionCode": "IC",
+                                    "name": "Plant Dispatch",
+                                    "communicationNumberQualifier": "TE",
+                                    "contactInquiryReference": "580-338-9641"
+                                }
+                            }
+                        ],
+                        "descriptionMarksAndNumbersLoop": [
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Aplwd Bcn Bls Loin Flt",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "6326.6",
+                                    "ladingQuantity": "590"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork CajDnHom Bnls Loin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "3993.7",
+                                    "ladingQuantity": "370"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Tryki Pork Tenderloin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "953.7",
+                                    "ladingQuantity": "80"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork Bnls Loin Filet",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "3480.5",
+                                    "ladingQuantity": "230"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork CrkRsmry Bnls Loin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1623.5",
+                                    "ladingQuantity": "150"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork Itln Sty Bls Loin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1605.5",
+                                    "ladingQuantity": "150"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Grd Pork Spec 82 Fine K-Pack",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1785288",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "142.2",
+                                    "ladingQuantity": "9"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bnls Shoulder Butt 1/4\"VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1275.78",
+                                    "ladingQuantity": "18"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bnls Picnic Cushion Meat",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "4451",
+                                    "ladingQuantity": "70"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Bnls Pork Butt 1/8\" CB",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "CB",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "2160",
+                                    "ladingQuantity": "1"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork BI Smk Trim Picnic 2X3 VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "421.84",
+                                    "ladingQuantity": "7"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFN Pork Tenderloin Vp Hd ON",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "182.08",
+                                    "ladingQuantity": "13"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bls Shldr Picnic Cush 6x2",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "401.75",
+                                    "ladingQuantity": "15"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork B/I Med Loin 1/4\" 2x2 VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "535.08",
+                                    "ladingQuantity": "6"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bls Picnic Cush Mt 5x6 VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "383.2",
+                                    "ladingQuantity": "6"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork BI Skls Shkls Ham 20/23VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "257.49",
+                                    "ladingQuantity": "7"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork CT Bnls Butt Portions CB",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "CB",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "8240",
+                                    "ladingQuantity": "4"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFN Pork B/I Loin 1/8\" 2x2",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1757.6",
+                                    "ladingQuantity": "20"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Shoulder Butt 2x4 1/4\" VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "4457.8",
+                                    "ladingQuantity": "60"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "stopOffDetails": {
+                            "stopSequenceNumber": "2",
+                            "stopReasonCode": "PU"
+                        },
+                        "businessInstructionsAndReferenceNumber": [
+                            {
+                                "referenceIdentification": "1781441",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "0367803636",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "GP1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "Domestic",
+                                "referenceIdentificationQualifier": "ST",
+                                "description": "Movement Type"
+                            },
+                            {
+                                "referenceIdentification": "02/02/2019 17 02",
+                                "referenceIdentificationQualifier": "LO",
+                                "description": "Deadline Departure"
+                            },
+                            {
+                                "referenceIdentification": "RT122134",
+                                "referenceIdentificationQualifier": "RH",
+                                "description": "Route ID"
+                            },
+                            {
+                                "referenceIdentification": "26.0 F",
+                                "referenceIdentificationQualifier": "MT",
+                                "description": "Max Temp"
+                            },
+                            {
+                                "referenceIdentification": "1785288",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "22751",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "CF1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "1753961",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "TL",
+                                "referenceIdentificationQualifier": "MD",
+                                "description": "Mode"
+                            },
+                            {
+                                "referenceIdentification": "CLR325930",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            }
+                        ],
+                        "dateTime": [
+                            {
+                                "dateQualifier": "53",
+                                "date": "20190203",
+                                "timeQualifier": "G",
+                                "time": "0300"
+                            },
+                            {
+                                "dateQualifier": "54",
+                                "date": "20190203",
+                                "timeQualifier": "L",
+                                "time": "0300"
+                            }
+                        ],
+                        "shipmentWeightPackagingAndQuantityData": {
+                            "weightQualifier": "G",
+                            "weightCodeUnit": "L",
+                            "weight": "17983.5",
+                            "ladingQuantity": "1570"
+                        },
+                        "nameLoop": [
+                            {
+                                "name": {
+                                    "entityIdentifierCode": "CN",
+                                    "name": "Walmart D.C. 6082",
+                                    "identificationCodeQualifier": null,
+                                    "identificationCode": null
+                                },
+                                "addressInformation": {
+                                    "addressInformation": "3300 Sterlin Hurley Ind",
+                                    "addressInformation2": null
+                                },
+                                "geographicLocation": {
+                                    "cityName": "Clarksville",
+                                    "stateOrProvinceCode": "AR",
+                                    "postalCode": "72830",
+                                    "countryCode": "USA"
+                                },
+                                "contact": {
+                                    "contactFunctionCode": "IC",
+                                    "name": "Receiver",
+                                    "communicationNumberQualifier": "TE",
+                                    "contactInquiryReference": "479-754-4500"
+                                }
+                            }
+                        ],
+                        "descriptionMarksAndNumbersLoop": [
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Aplwd Bcn Bls Loin Flt",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "6326.6",
+                                    "ladingQuantity": "590"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork CajDnHom Bnls Loin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "3993.7",
+                                    "ladingQuantity": "370"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Tryki Pork Tenderloin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "953.7",
+                                    "ladingQuantity": "80"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork Bnls Loin Filet",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "3480.5",
+                                    "ladingQuantity": "230"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork CrkRsmry Bnls Loin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1623.5",
+                                    "ladingQuantity": "150"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFS Pork Itln Sty Bls Loin",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1781441",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1605.5",
+                                    "ladingQuantity": "150"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "stopOffDetails": {
+                            "stopSequenceNumber": "3",
+                            "stopReasonCode": "CU"
+                        },
+                        "businessInstructionsAndReferenceNumber": [
+                            {
+                                "referenceIdentification": "1781441",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "0367803636",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "GP1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "Domestic",
+                                "referenceIdentificationQualifier": "ST",
+                                "description": "Movement Type"
+                            },
+                            {
+                                "referenceIdentification": "02/02/2019 17 02",
+                                "referenceIdentificationQualifier": "LO",
+                                "description": "Deadline Departure"
+                            },
+                            {
+                                "referenceIdentification": "RT122134",
+                                "referenceIdentificationQualifier": "RH",
+                                "description": "Route ID"
+                            },
+                            {
+                                "referenceIdentification": "26.0 F",
+                                "referenceIdentificationQualifier": "MT",
+                                "description": "Max Temp"
+                            },
+                            {
+                                "referenceIdentification": "1785288",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "22751",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "CF1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "1753961",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "TL",
+                                "referenceIdentificationQualifier": "MD",
+                                "description": "Mode"
+                            },
+                            {
+                                "referenceIdentification": "CLR326458",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            },
+                            {
+                                "referenceIdentification": "CLR326431",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            }
+                        ],
+                        "dateTime": [
+                            {
+                                "dateQualifier": "53",
+                                "date": "20190204",
+                                "timeQualifier": "G",
+                                "time": "0600"
+                            },
+                            {
+                                "dateQualifier": "54",
+                                "date": "20190204",
+                                "timeQualifier": "L",
+                                "time": "0600"
+                            }
+                        ],
+                        "shipmentWeightPackagingAndQuantityData": {
+                            "weightQualifier": "G",
+                            "weightCodeUnit": "L",
+                            "weight": "24665.82",
+                            "ladingQuantity": "236"
+                        },
+                        "nameLoop": [
+                            {
+                                "name": {
+                                    "entityIdentifierCode": "CN",
+                                    "name": "Prejean's Wholesale Meats, Inc",
+                                    "identificationCodeQualifier": null,
+                                    "identificationCode": null
+                                },
+                                "addressInformation": {
+                                    "addressInformation": "112 Michaud St.",
+                                    "addressInformation2": null
+                                },
+                                "geographicLocation": {
+                                    "cityName": "Carencro",
+                                    "stateOrProvinceCode": "LA",
+                                    "postalCode": "70520",
+                                    "countryCode": "USA"
+                                },
+                                "contact": {
+                                    "contactFunctionCode": "IC",
+                                    "name": "Receiver",
+                                    "communicationNumberQualifier": "TE",
+                                    "contactInquiryReference": "337-896-6574"
+                                }
+                            }
+                        ],
+                        "descriptionMarksAndNumbersLoop": [
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Grd Pork Spec 82 Fine K-Pack",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1785288",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "142.2",
+                                    "ladingQuantity": "9"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bnls Shoulder Butt 1/4\"VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1275.78",
+                                    "ladingQuantity": "18"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bnls Picnic Cushion Meat",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "4451",
+                                    "ladingQuantity": "70"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Bnls Pork Butt 1/8\" CB",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "CB",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "2160",
+                                    "ladingQuantity": "1"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork BI Smk Trim Picnic 2X3 VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "421.84",
+                                    "ladingQuantity": "7"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFN Pork Tenderloin Vp Hd ON",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "182.08",
+                                    "ladingQuantity": "13"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bls Shldr Picnic Cush 6x2",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "401.75",
+                                    "ladingQuantity": "15"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork B/I Med Loin 1/4\" 2x2 VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "535.08",
+                                    "ladingQuantity": "6"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Bls Picnic Cush Mt 5x6 VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "383.2",
+                                    "ladingQuantity": "6"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork BI Skls Shkls Ham 20/23VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "257.49",
+                                    "ladingQuantity": "7"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork CT Bnls Butt Portions CB",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "CB",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "8240",
+                                    "ladingQuantity": "4"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "PFN Pork B/I Loin 1/8\" 2x2",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "1757.6",
+                                    "ladingQuantity": "20"
+                                }
+                            },
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Pork Shoulder Butt 2x4 1/4\" VP",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1753961",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "4457.8",
+                                    "ladingQuantity": "60"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalWeightAndCharges": {
+                    "weight": "42649.32",
+                    "weightQualifier": "G",
+                    "freightRate": "2767.88",
+                    "rateValueQualifier": "FR",
+                    "charge": "276788",
+                    "ladingQuantity": "1806"
+                }
+            }
+        }
+    ],
+    "functionalGroupTrailer": {
+        "numberOfTransactionSetsIncluded": "1",
+        "groupControlNumber": "8558"
+    },
+    "interchangeControlTrailer": {
+        "numberOfIncludedFunctionalGroups": "1",
+        "interchangeControlNumber": "000032837"
+    }
+}

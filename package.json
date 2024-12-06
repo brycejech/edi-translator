@@ -1,0 +1,19 @@
+{
+  "name": "edi",
+  "version": "1.0.0",
+  "description": "File Parser for EDI Standard",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --verbose",
+    "start": "node index.js"
+  },
+  "author": "Bryce Jech <bryce.jech@gmail.com>",
+  "license": "None",
+  "devDependencies": {
+    "jest": "^24.1.0"
+  },
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4"
+  }
+}

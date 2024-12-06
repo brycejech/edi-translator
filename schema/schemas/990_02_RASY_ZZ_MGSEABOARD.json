@@ -1,0 +1,80 @@
+{
+    "meta": {
+        "transactionIdentifier": "990",
+        "senderInterchangeIdQualifier": "02",
+        "interchangeSenderId": "RASY",
+        "senderName": "Rains and Sons Transportation",
+        "receiverInterchangeIdQualifier": "ZZ",
+        "interchangeReceiverId": "MGSEABOARD",
+        "receiverName": "MercuryGate / Seaboard"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForBookingOrPickupDelivery",
+            "purpose": "",
+            "id": "B1",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard carrier alpha code"
+                },
+                {
+                    "position": 2,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment identification number"
+                },
+                {
+                    "position": 3,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 4,
+                    "name": "reservationActionCode",
+                    "description": "Reservation action code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "referenceIdentification",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference identification qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentification",
+                    "description": "Reference identification"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "remarks",
+            "purpose": "",
+            "id": "K1",
+            "max": 10,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "freeFormMessage",
+                    "description": "Free-form message"
+                },
+                {
+                    "position": 2,
+                    "name": "freeFormMessage2",
+                    "description": "Free-form message"
+                }
+            ]
+        }
+    ]
+}

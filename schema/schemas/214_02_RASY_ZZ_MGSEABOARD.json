@@ -1,0 +1,302 @@
+{
+    "meta": {
+        "transactionIdentifier": "214",
+        "senderInterchangeIdQualifier": "02",
+        "interchangeSenderId": "RASY",
+        "senderName": "Rains and Sons Transportation",
+        "receiverInterchangeIdQualifier": "ZZ",
+        "interchangeReceiverId": "MGSEABOARD",
+        "receiverName": "MercuryGate / Seaboard"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForTransportationCarrierShipmentStatusMessage",
+            "purpose": "",
+            "id": "B10",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                },
+                {
+                    "position": 2,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment identification number"
+                },
+                {
+                    "position": 3,
+                    "name": "standardAlphaCarrierCode",
+                    "description": "Standard alpha carrier code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "businessInstructionsAndReferenceNumbers",
+            "purpose": "",
+            "id": "L11",
+            "max": 300,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentification",
+                    "description": "Reference identification"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference identification qualifier"
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "contactLoop",
+            "id": "N1",
+            "max": 10,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "Name",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity identifier code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "addressInformation",
+                    "purpose": "",
+                    "id": "N3",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "addressInformation",
+                            "description": "Address information"
+                        },
+                        {
+                            "position": 2,
+                            "name": "addressInformation2",
+                            "description": "Address information 2"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "geographicLocation",
+                    "purpose": "",
+                    "id": "N4",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "cityName",
+                            "description": "City name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or province code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "postalCode",
+                            "description": "Postal code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "countryCode",
+                            "description": "Country code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "assignedNumberLoop",
+            "id": "LX",
+            "max": 999999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "assignedNumber",
+                    "purpose": "",
+                    "id": "LX",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "assignedNumber",
+                            "description": "Assigned number"
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "shipmentStatusDetailsLoop",
+                    "id": "AT7",
+                    "max": 10,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "shipmentStatusDetails",
+                            "purpose": "",
+                            "id": "AT7",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "shipmentStatusCode",
+                                    "description": "Shipment status code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "shipmentStatusOrAppointmentReasonCode",
+                                    "description": "Shipment status or appointment reason code"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "shipmentAppointmentStatusCode",
+                                    "description": "Shipment appointment status code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "shipmentStatusOrApptReasonCode",
+                                    "description": "Shipment status or appt reason code"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "statusDate",
+                                    "description": "Status date"
+                                },
+                                {
+                                    "position": 6,
+                                    "name": "statusTime",
+                                    "description": "Status time"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "busineesInstructionsAndReferenceNumbers",
+                            "purpose": "",
+                            "id": "MS1",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "cityName",
+                                    "description": "City name"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "stateOrProvince",
+                                    "description": "State or province"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "countryCode",
+                                    "description": "Country code"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "equipmentOrContainerOwnerAndType",
+                            "purpose": "",
+                            "id": "MS2",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "SCAC",
+                                    "description": "Standard carrier alpha code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "equipmentNumber",
+                                    "description": "Equipment number"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "individualOrOrganizationNameLoop",
+                    "id": "NM1",
+                    "max": 999999,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "individualOrOrganizationName",
+                            "purpose": "",
+                            "id": "NM1",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "nameEntityIdentifierCode",
+                                    "description": "Name entity identifier code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "entityTypeQualifier",
+                                    "description": "Entity type qualifier"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "nameLastOrOrganizationalName",
+                                    "description": "Name last or or organizational name"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "firstName",
+                                    "description": "First name"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "shipmentPurchaseOrderDetailLoop",
+                    "id": "SPO",
+                    "max": 999999,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "shipmentPurchaseOrderDetail",
+                            "purpose": "",
+                            "id": "SPO",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "purchaseOrderNumber",
+                                    "description": "Purchase order number"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

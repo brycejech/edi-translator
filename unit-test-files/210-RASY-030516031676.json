@@ -1,0 +1,1454 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "02",
+    "interchangeSenderID": "RASY",
+    "receiverIDQualifier": "ZZ",
+    "interchangeReceiverID": "MGSEABOARD",
+    "interchangeDate": "190305",
+    "interchangeTime": "1602",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00400",
+    "interchangeControlNumber": "000029547",
+    "acknowledgementRequested": "0",
+    "testIndicator": "P",
+    "componentElementSeparator": ">",
+    "segmentDelimiter": "Ö"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "IM",
+    "applicationSendersCode": "RASY",
+    "applicationReceiversCode": "MGSEABOARD",
+    "date": "20190305",
+    "time": "1602",
+    "groupControlNumber": "29547",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "210",
+      "transactionSetControlNumber": "295470001",
+      "numberOfIncludedSegments": "28",
+      "transaction": {
+        "beginningSegmentForCarriersInvoice": {
+          "invoiceNumber": "0135717",
+          "shipmentIdentificationNumber": "4097523",
+          "shipmentMethodOfPayment": "PP",
+          "date": "20190305",
+          "netAmountDue": "388997",
+          "deliveryDate": "20190303",
+          "dateTimeQualifier": "035",
+          "standardCarrierAlphaCode": "RASY",
+          "date2": null
+        },
+        "referenceIdentification": {
+          "referenceIdentificationQualifier": "PO",
+          "referenceIdentification": "146094"
+        },
+        "dateTime": {
+          "dateQualifier": "86",
+          "date": "20190228"
+        },
+        "nameLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "SEABORD FARMS",
+              "identificationCodeQualifier": "ZZ",
+              "identificationCode": "GP1"
+            },
+            "addressInformation": {
+              "addressInformation": "OLD KNJ LOT FOR TRL DROP",
+              "addressInformation2": "2001 YUCCA BLVD"
+            },
+            "geographicLocation": {
+              "cityName": "GUYMON",
+              "stateOrProvinceCode": "OK",
+              "postalCode": "73942",
+              "countryCode": "USA"
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "CN",
+              "name": "Pacific Food Distributors",
+              "identificationCodeQualifier": null,
+              "identificationCode": null
+            },
+            "addressInformation": {
+              "addressInformation": "12300 Carpenter Dr.",
+              "addressInformation2": "2001 YUCCA BLVD"
+            },
+            "geographicLocation": {
+              "cityName": "Clackamas",
+              "stateOrProvinceCode": "OR",
+              "postalCode": "97015",
+              "countryCode": "USA"
+            }
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "1",
+              "ladingDescription": "LINE HAUL"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "1",
+              "billedOrRatedAsQuantity": "1588",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": "42485",
+              "weightQualifier": "G",
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": "1158",
+              "packagingFormCode": "PCS",
+              "dunnageDescription": null,
+              "weightUnitCode": "L",
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "1",
+              "freightRate": "1.88",
+              "rateValueQualifier": "PM",
+              "charge": "298544",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": null,
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "2"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "2",
+              "billedOrRatedAsQuantity": "1588",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "2",
+              "freightRate": ".404",
+              "rateValueQualifier": "PM",
+              "charge": "64155",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "405",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "FUEL SURCHARGE",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "3"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "3",
+              "billedOrRatedAsQuantity": "1588",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "3",
+              "freightRate": ".068",
+              "rateValueQualifier": "PM",
+              "charge": "10798",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "405",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "FUEL SURCHARGE",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "4"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "4",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "4",
+              "freightRate": "4.5",
+              "rateValueQualifier": "PM",
+              "charge": "-4500",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "LOA",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "LOADING CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "5"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "5",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "5",
+              "freightRate": "200",
+              "rateValueQualifier": "PM",
+              "charge": "20000",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "UNL",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "UNLOADING CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "42485",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": "388997",
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": null,
+          "volumeUnitQualifier": null,
+          "ladingQuantity": "1158",
+          "weightUnitCode": "L",
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    },
+    {
+      "transactionSetIdentifierCode": "210",
+      "transactionSetControlNumber": "295470002",
+      "numberOfIncludedSegments": "45",
+      "transaction": {
+        "beginningSegmentForCarriersInvoice": {
+          "invoiceNumber": "0135718",
+          "shipmentIdentificationNumber": "4097968",
+          "shipmentMethodOfPayment": "PP",
+          "date": "20190305",
+          "netAmountDue": "355071",
+          "deliveryDate": "20190304",
+          "dateTimeQualifier": "035",
+          "standardCarrierAlphaCode": "RASY",
+          "date2": null
+        },
+        "referenceIdentification": {
+          "referenceIdentificationQualifier": "PO",
+          "referenceIdentification": "90042"
+        },
+        "dateTime": {
+          "dateQualifier": "86",
+          "date": "20190228"
+        },
+        "nameLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "SEABORD FARMS",
+              "identificationCodeQualifier": "ZZ",
+              "identificationCode": "GP1"
+            },
+            "addressInformation": {
+              "addressInformation": "OLD KNJ LOT FOR TRL DROP",
+              "addressInformation2": "2001 YUCCA BLVD"
+            },
+            "geographicLocation": {
+              "cityName": "GUYMON",
+              "stateOrProvinceCode": "OK",
+              "postalCode": "73942",
+              "countryCode": "USA"
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "CN",
+              "name": "Pacific Agri-Products, In",
+              "identificationCodeQualifier": null,
+              "identificationCode": null
+            },
+            "addressInformation": {
+              "addressInformation": "1864 Ackley Circle",
+              "addressInformation2": "2001 YUCCA BLVD"
+            },
+            "geographicLocation": {
+              "cityName": "Oakdale",
+              "stateOrProvinceCode": "CA",
+              "postalCode": "95361",
+              "countryCode": "USA"
+            }
+          }
+        ],
+        "stopOffDetailsLoop": [
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "1",
+              "stopReasonCode": "PU",
+              "weight": "14605",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "378",
+              "unitOrBasisForMeasurementCode": "PC",
+              "volumne": null,
+              "volumeUnitQualifier": null,
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "referenceIdentification": [
+              {
+                "referenceIdentificationQualifier": "CR",
+                "referenceIdentification": "CLR335179",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "CR",
+                "referenceIdentification": "CLR335153",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "LO",
+                "referenceIdentification": "02/28/2019 23 06",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "MD",
+                "referenceIdentification": "TL",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "MT",
+                "referenceIdentification": "26.0 F",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1795720",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1769290",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1736881",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OW",
+                "referenceIdentification": "CF1",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OW",
+                "referenceIdentification": "GP1",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              }
+            ],
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "CN",
+                  "name": "Newport Meat-North DBA Fa",
+                  "identificationCodeQualifier": null,
+                  "identificationCode": null
+                },
+                "addressInformation": {
+                  "addressInformation": "48811 Warm Spring Blvd.",
+                  "addressInformation2": "2001 YUCCA BLVD"
+                },
+                "geographicLocation": {
+                  "cityName": "Fremont",
+                  "stateOrProvinceCode": "CA",
+                  "postalCode": "94539",
+                  "countryCode": "USA"
+                }
+              }
+            ]
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "1",
+              "ladingDescription": "LINE HAUL"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "1",
+              "billedOrRatedAsQuantity": "1479",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": "23112",
+              "weightQualifier": "G",
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": "819",
+              "packagingFormCode": "PCS",
+              "dunnageDescription": null,
+              "weightUnitCode": "L",
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "1",
+              "freightRate": "1.78",
+              "rateValueQualifier": "PM",
+              "charge": "263262",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": null,
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "2"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "2",
+              "billedOrRatedAsQuantity": "1479",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "2",
+              "freightRate": ".404",
+              "rateValueQualifier": "PM",
+              "charge": "59752",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "405",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "FUEL SURCHARGE",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "3"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "3",
+              "billedOrRatedAsQuantity": "1479",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "3",
+              "freightRate": ".068",
+              "rateValueQualifier": "PM",
+              "charge": "10057",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "405",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "FUEL SURCHARGE",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "4"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "4",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "4",
+              "freightRate": "4.5",
+              "rateValueQualifier": "PM",
+              "charge": "-4500",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "LOA",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "LOADING CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "5"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "5",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "5",
+              "freightRate": "85",
+              "rateValueQualifier": "PM",
+              "charge": "8500",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "STO",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "STOP OFF CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "6"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "6",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "6",
+              "freightRate": "180",
+              "rateValueQualifier": "PM",
+              "charge": "18000",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "UNL",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "UNLOADING CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "23112",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": "355071",
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": null,
+          "volumeUnitQualifier": null,
+          "ladingQuantity": "819",
+          "weightUnitCode": "L",
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    },
+    {
+      "transactionSetIdentifierCode": "210",
+      "transactionSetControlNumber": "295470003",
+      "numberOfIncludedSegments": "59",
+      "transaction": {
+        "beginningSegmentForCarriersInvoice": {
+          "invoiceNumber": "0135719",
+          "shipmentIdentificationNumber": "4098619",
+          "shipmentMethodOfPayment": "PP",
+          "date": "20190305",
+          "netAmountDue": "233784",
+          "deliveryDate": "20190304",
+          "dateTimeQualifier": "035",
+          "standardCarrierAlphaCode": "RASY",
+          "date2": null
+        },
+        "referenceIdentification": {
+          "referenceIdentificationQualifier": "PO",
+          "referenceIdentification": "751889"
+        },
+        "dateTime": {
+          "dateQualifier": "86",
+          "date": "20190302"
+        },
+        "nameLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "SEABORD FARMS",
+              "identificationCodeQualifier": "ZZ",
+              "identificationCode": "GP1"
+            },
+            "addressInformation": {
+              "addressInformation": "OLD KNJ LOT FOR TRL DROP",
+              "addressInformation2": "2001 YUCCA BLVD"
+            },
+            "geographicLocation": {
+              "cityName": "GUYMON",
+              "stateOrProvinceCode": "OK",
+              "postalCode": "73942",
+              "countryCode": "USA"
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "CN",
+              "name": "Reinhart Foodservice C/O",
+              "identificationCodeQualifier": null,
+              "identificationCode": null
+            },
+            "addressInformation": {
+              "addressInformation": "524 W. 61 St.",
+              "addressInformation2": "2001 YUCCA BLVD"
+            },
+            "geographicLocation": {
+              "cityName": "Shreveport",
+              "stateOrProvinceCode": "LA",
+              "postalCode": "71148",
+              "countryCode": "USA"
+            }
+          }
+        ],
+        "stopOffDetailsLoop": [
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "1",
+              "stopReasonCode": "PU",
+              "weight": "8962",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "1",
+              "unitOrBasisForMeasurementCode": "PC",
+              "volumne": null,
+              "volumeUnitQualifier": null,
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "referenceIdentification": [
+              {
+                "referenceIdentificationQualifier": "CR",
+                "referenceIdentification": "CLR335657",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "LO",
+                "referenceIdentification": "03/02/2019 23 59",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "MD",
+                "referenceIdentification": "TL",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "MT",
+                "referenceIdentification": "26.0 F",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1795536",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1773932",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1794628",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1794627",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OW",
+                "referenceIdentification": "GP1",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OW",
+                "referenceIdentification": "CF1",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              }
+            ],
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "CN",
+                  "name": "Harvest Meat Company, Inc",
+                  "identificationCodeQualifier": null,
+                  "identificationCode": null
+                },
+                "addressInformation": {
+                  "addressInformation": "1131 Ave. T",
+                  "addressInformation2": "2001 YUCCA BLVD"
+                },
+                "geographicLocation": {
+                  "cityName": "Grand Prairie",
+                  "stateOrProvinceCode": "TX",
+                  "postalCode": "75050",
+                  "countryCode": "USA"
+                }
+              }
+            ]
+          },
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "2",
+              "stopReasonCode": "PU",
+              "weight": "6359",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "1",
+              "unitOrBasisForMeasurementCode": "PC",
+              "volumne": null,
+              "volumeUnitQualifier": null,
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "referenceIdentification": [
+              {
+                "referenceIdentificationQualifier": "CR",
+                "referenceIdentification": "CLR324018",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "LO",
+                "referenceIdentification": "03/02/2019 23 59",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "MD",
+                "referenceIdentification": "TL",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "MT",
+                "referenceIdentification": "26.0 F",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1795536",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1773932",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1794628",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OQ",
+                "referenceIdentification": "1794627",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OW",
+                "referenceIdentification": "GP1",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              },
+              {
+                "referenceIdentificationQualifier": "OW",
+                "referenceIdentification": "CF1",
+                "freeFormDescription": null,
+                "date": null,
+                "time": null,
+                "timeCode": null,
+                "referenceIdentifier": null
+              }
+            ],
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "CN",
+                  "name": "Colorado Boxed Beef Co LT",
+                  "identificationCodeQualifier": null,
+                  "identificationCode": null
+                },
+                "addressInformation": {
+                  "addressInformation": "5150 Pulaski St.",
+                  "addressInformation2": "2001 YUCCA BLVD"
+                },
+                "geographicLocation": {
+                  "cityName": "Dallas",
+                  "stateOrProvinceCode": "TX",
+                  "postalCode": "75247",
+                  "countryCode": "USA"
+                }
+              }
+            ]
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "1",
+              "ladingDescription": "LINE HAUL"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "1",
+              "billedOrRatedAsQuantity": "643",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": "43153",
+              "weightQualifier": "G",
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": "926",
+              "packagingFormCode": "PCS",
+              "dunnageDescription": null,
+              "weightUnitCode": "L",
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "1",
+              "freightRate": "2.45",
+              "rateValueQualifier": "PM",
+              "charge": "157535",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": null,
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "2"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "2",
+              "billedOrRatedAsQuantity": "643",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "2",
+              "freightRate": ".404",
+              "rateValueQualifier": "PM",
+              "charge": "25977",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "405",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "FUEL SURCHARGE",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "3"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "3",
+              "billedOrRatedAsQuantity": "643",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "3",
+              "freightRate": ".068",
+              "rateValueQualifier": "PM",
+              "charge": "4372",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "405",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "FUEL SURCHARGE",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "4"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "4",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "4",
+              "freightRate": "4.5",
+              "rateValueQualifier": "PM",
+              "charge": "-4500",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "LOA",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "LOADING CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "5"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "5",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "5",
+              "freightRate": "205",
+              "rateValueQualifier": "PM",
+              "charge": "20500",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "STO",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "STOP OFF CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "6"
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "6",
+              "billedOrRatedAsQuantity": "1",
+              "billedOrRatedAsQualifier": "DM",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "6",
+              "freightRate": "299",
+              "rateValueQualifier": "PM",
+              "charge": "29900",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "UNL",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": "UNLOADING CHARGES",
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "43153",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": "233784",
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": null,
+          "volumeUnitQualifier": null,
+          "ladingQuantity": "926",
+          "weightUnitCode": "L",
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "3",
+    "groupControlNumber": "29547"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000029547"
+  }
+}

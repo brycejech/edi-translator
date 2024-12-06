@@ -1,0 +1,908 @@
+{
+    "meta": {
+        "transactionIdentifier": "204",
+        "senderInterchangeIdQualifier": "ZZ",
+        "interchangeSenderId": "MGSEABOARD",
+        "senderName": "MercuryGate / Seaboard",
+        "receiverInterchangeIdQualifier": "02",
+        "interchangeReceiverId": "RASY",
+        "receiverName": "Rains and Sons Transportation"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForShipmentInformationTransaction",
+            "purpose": "To transmit basic data relating to shipment information",
+            "id": "B2",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 2,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                },
+                {
+                    "position": 4,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment Identification Number"
+                },
+                {
+                    "position": 6,
+                    "name": "shipmentMethodOfPayment",
+                    "description": "Shipment Method of Payment"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "setPurpose",
+            "purpose": "to allow for positive identification of transaction set purpose",
+            "id": "B2A",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "transacionSetPurposeCode",
+                    "description": "Transaction Set Purpose Code"
+                },
+                {
+                    "position": 2,
+                    "name": "applicationType",
+                    "description": "Application Type"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "billOfLadingHandlingRequirements",
+            "purpose": "To identify Bill of Lading handling and service requirements",
+            "id": "AT5",
+            "max": 6,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "specialHandlingCode",
+                    "description": "Special Handling Code"
+                },
+                {
+                    "position": 2,
+                    "name": "specialServicesCode",
+                    "description": "Special Services Code"
+                },
+                {
+                    "position": 3,
+                    "name": "specialHandlingDescription",
+                    "description": "Special Handling Description"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "palletInformation",
+            "purpose": "To specify pallet information including quantity, exchange, and weight",
+            "id": "PLD",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "quantityOfPalletsShipped",
+                    "description": "Quantity of Pallets Shipped"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "id": "NTE",
+            "name": "noteSpecialInstruction",
+            "purpose": "To transmit information in a free-form format, if necessary, for comment or special instruction",
+            "max": 10,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "noteReferenceCode",
+                    "description": "Note Reference Code"
+                },
+                {
+                    "position": 2,
+                    "name": "description",
+                    "description": "Description"
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "nameLoop",
+            "id": "N1",
+            "max": 5,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "name",
+                    "purpose": "To identify a party by type of organization, name, and code",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "identificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "addressInformation",
+                    "purpose": "To identify the location of the named party",
+                    "id": "N3",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "addressInformation",
+                            "description": "Address Information"
+                        },
+                        {
+                            "position": 2,
+                            "name": "addressInformation2",
+                            "description": "Address Information"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "geographicLocation",
+                    "purpose": "To specify the geographic place of the named party",
+                    "id": "N4",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "cityName",
+                            "description": "City Name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or Province Code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "postalCode",
+                            "description": "Postal Code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "countryCode",
+                            "description": "Country Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "contact",
+                    "purpose": "To identify a person or office to whom communications should be directed",
+                    "id": "G61",
+                    "max": 3,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "contactFunctionCode",
+                            "description": "Contact Function Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "communicationNumberQualifier",
+                            "description": "Communication Number Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "contactInquiryReference",
+                            "description": "Contact Inquiry Reference"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "equipmentDetailsLoop",
+            "id": "N7",
+            "max": 10,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "equipmentDetails",
+                    "purpose": "To identify the equipment",
+                    "id": "N7",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "equipmentInitial",
+                            "description": "Equipment Initial"
+                        },
+                        {
+                            "position": 2,
+                            "name": "equipmentNumber",
+                            "description": "Equipment Number"
+                        },
+                        {
+                            "position": 3,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 4,
+                            "name": "weightQualifier",
+                            "description": "Weight Qualifier"
+                        },
+                        {
+                            "position": 11,
+                            "name": "equipmentDescriptionCode",
+                            "descriptions": "Equipment Description Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "stopOffDetailsLoop",
+            "id": "S5",
+            "max": 999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "stopOffDetails",
+                    "purpose": "To specify stop-off detail reference numbers and stop reason",
+                    "id": "S5",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "stopSequenceNumber",
+                            "description": "Stop Sequence Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stopReasonCode",
+                            "description": "Stop Reason Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "businessInstructionsAndReferenceNumber",
+                    "purpose": "To specify instructions in the this business relationship or a reference number",
+                    "id": "L11",
+                    "max": 50,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "referenceIdentification",
+                            "description": "Reference Identification"
+                        },
+                        {
+                            "position": 2,
+                            "name": "referenceIdentificationQualifier",
+                            "description": "Reference Identification Qualifier"
+                        },
+                        {
+                            "position": 3,
+                            "name": "description",
+                            "description": "Description"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "dateTime",
+                    "purpose": "To specify pertinent dates and times",
+                    "id": "G62",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "dateQualifier",
+                            "description": "Date Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "date",
+                            "description": "Date"
+                        },
+                        {
+                            "position": 3,
+                            "name": "timeQualifier",
+                            "description": "Time Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "time",
+                            "description": "Time"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "shipmentWeightPackagingAndQuantityData",
+                    "purpose": "To specify shipment details in terms of weight, and quantity of handling units",
+                    "id": "AT8",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "weightQualifier",
+                            "description": "Weight Qualifier"
+                        },
+                        {
+                            "position": 2,
+                            "name": "weightCodeUnit",
+                            "description": "Weight Code Unit"
+                        },
+                        {
+                            "position": 3,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 5,
+                            "name": "ladingQuantity",
+                            "description": "Lading Quantity"
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "nameLoop",
+                    "id": "N1",
+                    "max": 1,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "name",
+                            "purpose": "To identify a party by type of organization, name, and code",
+                            "id": "N1",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "entityIdentifierCode",
+                                    "description": "Entity Identifier Code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "name",
+                                    "description": "Name"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "identificationCodeQualifier",
+                                    "description": "Identification Code Qualifier"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "identificationCode",
+                                    "description": "Identification Code"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "addressInformation",
+                            "purpose": "To identify the location of the named party",
+                            "id": "N3",
+                            "max": 2,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "addressInformation",
+                                    "description": "Address Information"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "addressInformation2",
+                                    "description": "Address Information"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "geographicLocation",
+                            "purpose": "To specify the geographic place of the named party",
+                            "id": "N4",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "cityName",
+                                    "description": "City Name"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "stateOrProvinceCode",
+                                    "description": "State or Province Code"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "postalCode",
+                                    "description": "Postal Code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "countryCode",
+                                    "description": "Country Code"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "contact",
+                            "purpose": "To identify a person or office to whom communications should be directed",
+                            "id": "G61",
+                            "max": 3,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "contactFunctionCode",
+                                    "description": "Contact Function Code"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "name",
+                                    "description": "Name"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "communicationNumberQualifier",
+                                    "description": "Communication Number Qualifier"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "contactInquiryReference",
+                                    "description": "Contact Inquiry Reference"
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "descriptionMarksAndNumbersLoop",
+                    "id": "L5",
+                    "max": 99,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "descriptionMarksAndNumbers",
+                            "purpose": "To specify the line item in terms of description, quantity, packaging, and marks and numbers",
+                            "id": "L5",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 2,
+                                    "name": "ladingDescription",
+                                    "description": "Lading Description"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "commodityCode",
+                                    "description": "Commodity Code"
+                                },
+                                {
+                                    "position": 4,
+                                    "name": "commodityCodeQualifier",
+                                    "description": "Commodity Code Qualifier"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "packagingCode",
+                                    "description": "Packaging Code"
+                                },
+                                {
+                                    "position": 6,
+                                    "name": "marksAndNumbers",
+                                    "description": "Marks and Numbers"
+                                },
+                                {
+                                    "position": 7,
+                                    "name": "marksAndNumbersQualifier",
+                                    "description": "Marks and Numbers Qualifier"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "segment",
+                            "name": "shipmentWeightPackagingAndQuantityData",
+                            "purpose": "To specify shipment details in terms of weight, and quantity of handling units",
+                            "id": "AT8",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "weightQualifier",
+                                    "description": "Weight Qualifier"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "weightCodeUnit",
+                                    "description": "Weight Code Unit"
+                                },
+                                {
+                                    "position": 3,
+                                    "name": "weight",
+                                    "description": "Weight"
+                                },
+                                {
+                                    "position": 5,
+                                    "name": "ladingQuantity",
+                                    "description": "Lading Quantity"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loop",
+                            "name": "contactLoop",
+                            "id": "G61",
+                            "max": 99,
+                            "schema": [
+                                {
+                                    "type": "segment",
+                                    "name": "contact",
+                                    "purpose": "To identify a person or office to whom communications should be directed",
+                                    "id": "G61",
+                                    "max": 1,
+                                    "elements": [
+                                        {
+                                            "position": 1,
+                                            "name": "contactFunctionCode",
+                                            "description": "Contact Function Code"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "name": "name",
+                                            "description": "Name"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "name": "communicationNumberQualifier",
+                                            "description": "Communication Number Qualifier"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "name": "contactInquiryReference",
+                                            "description": "Contact Inquiry Reference"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "loop",
+                                    "name": "hazardousIdentificationInformationLoop",
+                                    "id": "LH1",
+                                    "max": 25,
+                                    "schema": [
+                                        {
+                                            "type": "segment",
+                                            "name": "hazardousIdentificationInformation",
+                                            "purpose": "To specify the hazardous commodity identification reference number and quantity",
+                                            "id": "LH1",
+                                            "max": 1,
+                                            "elements": [
+                                                {
+                                                    "position": 1,
+                                                    "name": "unitOrBasisForMeasurementCode",
+                                                    "description": "Unit or Basis for Measurement Code"
+                                                },
+                                                {
+                                                    "position": 2,
+                                                    "name": "ladingQuantity",
+                                                    "description": "Lading Quantity"
+                                                },
+                                                {
+                                                    "position": 3,
+                                                    "name": "UNNAIdentificationCode",
+                                                    "description": "UN/NA Identification Code"
+                                                },
+                                                {
+                                                    "position": 5,
+                                                    "name": "commodityCode",
+                                                    "description": "Commodity Code"
+                                                },
+                                                {
+                                                    "position": 6,
+                                                    "name": "unitOrBasisForMeasurementCodeNonBulk",
+                                                    "description": "Unit or Basis for Measurement Code (Non-Bulk Only)"
+                                                },
+                                                {
+                                                    "position": 7,
+                                                    "name": "quantity",
+                                                    "description": "Quantity"
+                                                },
+                                                {
+                                                    "position": 10,
+                                                    "name": "packingGroupCode",
+                                                    "description": "Packing Group Code"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "segment",
+                                            "name": "hazardousClassificationInformation",
+                                            "purpose": "To specify the hazardous notation and endorsement information",
+                                            "id": "LH2",
+                                            "max": 4,
+                                            "elements": [
+                                                {
+                                                    "position": 1,
+                                                    "name": "hazardousClassification",
+                                                    "description": "Hazardous Classification"
+                                                },
+                                                {
+                                                    "position": 3,
+                                                    "name": "hazardousPlacardNotation",
+                                                    "description": "Hazardous Placard Notation"
+                                                },
+                                                {
+                                                    "position": 6,
+                                                    "name": "unitOrBasisForMeasurementCode",
+                                                    "description": "Unit or Basis for Measurement Code"
+                                                },
+                                                {
+                                                    "position": 7,
+                                                    "name": "temperature",
+                                                    "description": "Temperature"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "segment",
+                                            "name": "hazardousMaterialShippingName",
+                                            "purpose": "To specify the hazardous material shipping name and additional descriptive requirements",
+                                            "id": "LH3",
+                                            "max": 10,
+                                            "elements": [
+                                                {
+                                                    "position": 1,
+                                                    "name": "hazardousMaterialShippingName",
+                                                    "description": "Hazardous Material Shipping Name"
+                                                },
+                                                {
+                                                    "position": 2,
+                                                    "name": "hazardousMaterialShippingNameQualifier",
+                                                    "description": "Hazardous Material Shipping Name Qualifier"
+                                                },
+                                                {
+                                                    "position": 3,
+                                                    "name": "NOSIndicatorCode",
+                                                    "description": "N.O.S Indicicator Code"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "segment",
+                                            "name": "freeformHazardousMaterialInformation",
+                                            "purpose": "To uniquely identify the variable information required by government regulation covering the transportation of hazardous material shipments",
+                                            "id": "LFH",
+                                            "max": 20,
+                                            "elements": [
+                                                {
+                                                    "position": 1,
+                                                    "name": "hazardousMaterialShipmentInformationQualifier",
+                                                    "description": "Hazardous Material Shipment Information Qualifier"
+                                                },
+                                                {
+                                                    "position": 2,
+                                                    "name": "hazardousMaterialShipmentInformation",
+                                                    "description": "Hazardous Material Shipment Information"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                },
+                {
+                    "type": "loop",
+                    "name": "orderIdentificationDetailLoop",
+                    "id": "OID",
+                    "max": 999,
+                    "schema": [
+                        {
+                            "type": "segment",
+                            "name": "orderIdentificationDetail",
+                            "purpose": "To specify order identification detail",
+                            "id": "OID",
+                            "max": 1,
+                            "elements": [
+                                {
+                                    "position": 1,
+                                    "name": "referenceIdentification",
+                                    "description": "Reference Identification"
+                                },
+                                {
+                                    "position": 2,
+                                    "name": "purchaseOrderNumber",
+                                    "description": "Purchase Order Number"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "loop",
+                            "name": "descriptionMarksAndNumbersLoop",
+                            "id": "L5",
+                            "max": 99,
+                            "schema": [
+                                {
+                                    "type": "segment",
+                                    "name": "descriptionMarksAndNumbers",
+                                    "purpose": "To specify the line item in terms of description, quantity, packaging, and marks and numbers",
+                                    "id": "L5",
+                                    "max": 1,
+                                    "elements": [
+                                        {
+                                            "position": 2,
+                                            "name": "ladingDescription",
+                                            "description": "Lading Description"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "name": "commodityCode",
+                                            "description": "Commodity Code"
+                                        },
+                                        {
+                                            "position": 4,
+                                            "name": "commodityCodeQualifier",
+                                            "description": "Commodity Code Qualifier"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "name": "packagingCode",
+                                            "description": "Packaging Code"
+                                        },
+                                        {
+                                            "position": 6,
+                                            "name": "marksAndNumbers",
+                                            "description": "Marks and Numbers"
+                                        },
+                                        {
+                                            "position": 7,
+                                            "name": "marksAndNumbersQualifier",
+                                            "description": "Marks and Numbers Qualifier"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "segment",
+                                    "name": "shipmentWeightPackagingAndQuantityData",
+                                    "purpose": "To specify shipment details in terms of weight, and quantity of handling units",
+                                    "id": "AT8",
+                                    "max": 1,
+                                    "elements": [
+                                        {
+                                            "position": 1,
+                                            "name": "weightQualifier",
+                                            "description": "Weight Qualifier"
+                                        },
+                                        {
+                                            "position": 2,
+                                            "name": "weightCodeUnit",
+                                            "description": "Weight Code Unit"
+                                        },
+                                        {
+                                            "position": 3,
+                                            "name": "weight",
+                                            "description": "Weight"
+                                        },
+                                        {
+                                            "position": 5,
+                                            "name": "ladingQuantity",
+                                            "description": "Lading Quantity"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "loop",
+                                    "name": "contactLoop",
+                                    "id": "G61",
+                                    "max": 99,
+                                    "schema": [
+                                        {
+                                            "type": "segment",
+                                            "name": "contact",
+                                            "purpose": "To identify a person or office to whom communications should be directed",
+                                            "id": "G61",
+                                            "max": 1,
+                                            "elements": [
+                                                {
+                                                    "position": 1,
+                                                    "name": "contactFunctionCode",
+                                                    "description": "Contact Function Code"
+                                                },
+                                                {
+                                                    "position": 2,
+                                                    "name": "name",
+                                                    "description": "Name"
+                                                },
+                                                {
+                                                    "position": 3,
+                                                    "name": "communicationNumberQualifier",
+                                                    "description": "Communication Number Qualifier"
+                                                },
+                                                {
+                                                    "position": 4,
+                                                    "name": "contactInquiryReference",
+                                                    "description": "Contact Inquiry Reference"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "totalWeightAndCharges",
+            "purpose": "To specify the total shipment in terms of weight, volumne, rates, charges, advances, and prepaid amounts applicable to one or more line items",
+            "id": "L3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "weight",
+                    "description": "Weight"
+                },
+                {
+                    "position": 2,
+                    "name": "weightQualifier",
+                    "description": "Weight Qualifier"
+                },
+                {
+                    "position": 3,
+                    "name": "freightRate",
+                    "description": "Freight Rate"
+                },
+                {
+                    "position": 4,
+                    "name": "rateValueQualifier",
+                    "description": "Rate/Value Qualifier"
+                },
+                {
+                    "position": 5,
+                    "name": "charge",
+                    "description": "Charge"
+                },
+                {
+                    "position": 11,
+                    "name": "ladingQuantity",
+                    "description": "Lading Quantity"
+                }
+            ]
+        }
+    ]
+}

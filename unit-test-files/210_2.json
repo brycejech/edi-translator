@@ -1,0 +1,505 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "02",
+    "interchangeSenderID": "ACDT",
+    "receiverIDQualifier": "14",
+    "interchangeReceiverID": "PSXPRODP2P",
+    "interchangeDate": "190305",
+    "interchangeTime": "0954",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00401",
+    "interchangeControlNumber": "000000001",
+    "acknowledgementRequested": "0",
+    "testIndicator": "T",
+    "componentElementSeparator": ">",
+    "segmentDelimiter": "~"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "IM",
+    "applicationSendersCode": "ACDT",
+    "applicationReceiversCode": "PSXPRODP2P",
+    "date": "20190305",
+    "time": "0954",
+    "groupControlNumber": "1",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "210",
+      "transactionSetControlNumber": "0001",
+      "numberOfIncludedSegments": "22",
+      "transaction": {
+        "beginningSegmentForCarriersInvoice": {
+          "shipmentQualifier": null,
+          "invoiceNumber": "ACO395646",
+          "shipmentIdentificationNumber": null,
+          "shipmentMethodOfPayment": "PP",
+          "weightUnitCode": null,
+          "date": "20190227",
+          "netAmountDue": "172502",
+          "correctionIndicator": null,
+          "deliveryDate": "20190218",
+          "dateTimeQualifier": "035",
+          "standardCarrierAlphaCode": "ACDT",
+          "date2": null,
+          "tariffServiceCode": null,
+          "transportationTermsCode": null
+        },
+        "currency": {
+          "currencyCode": "USD",
+          "exchangeRate": null,
+          "currencyCode2": null,
+          "currencyCode3": null
+        },
+        "referenceIdentification": {
+          "referenceIdentificationQualifier": "PO",
+          "referenceIdentification": "ACO395646",
+          "freeFormDescription": null,
+          "date": null,
+          "time": null,
+          "timeCode": null,
+          "referenceIdentifier": null
+        },
+        "dateTime": {
+          "dateQualifier": "03",
+          "date": "20190227",
+          "timeQualifier": null,
+          "time": null,
+          "timeCode": null
+        },
+        "contactLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "Conoco",
+              "indentificationCodeQualifier": "1",
+              "identificationCode": "SH",
+              "entityRelationshipCode": null,
+              "entityIdentifierCode2": null
+            },
+            "addressInformation": {
+              "addressInformation": "12596 MO-39",
+              "addressInformation2": null
+            },
+            "geographicLocation": {
+              "cityName": "Mt Vernon",
+              "stateOrProvinceCode": "MO",
+              "postalCode": "65712",
+              "countryCode": null,
+              "locationQualifier": null,
+              "locationIdentifier": null
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "CN",
+              "name": "NGL Energy",
+              "indentificationCodeQualifier": "1",
+              "identificationCode": "CN",
+              "entityRelationshipCode": null,
+              "entityIdentifierCode2": null
+            },
+            "addressInformation": {
+              "addressInformation": "26029 State Highway 33",
+              "addressInformation2": null
+            },
+            "geographicLocation": {
+              "cityName": "Kingfisher",
+              "stateOrProvinceCode": "OK",
+              "postalCode": "73750",
+              "countryCode": null,
+              "locationQualifier": null,
+              "locationIdentifier": null
+            }
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "referenceIdentification": {
+              "referenceIdentificationQualifier": "BM",
+              "referenceIdentification": "875775",
+              "freeFormDescription": null,
+              "date": null,
+              "time": null,
+              "timeCode": null,
+              "referenceIdentifier": null
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "1",
+              "ladingDescription": "BK Mix",
+              "commodityCode": null,
+              "commodityCodeQualifier": null,
+              "packagingCode": null,
+              "marksAndNumbers": null,
+              "marksAndNumbersQualifier": null,
+              "commodityCodeQualifier2": null,
+              "compartmentIdCode": null
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "1",
+              "billedOrRatedAsQuantity": "9359.0000",
+              "billedOrRatedAsQualifier": "GL",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": "1",
+              "packagingFormCode": "PCS",
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "1",
+              "freightRate": "0.15620000",
+              "rateValueQualifier": "FR",
+              "charge": "146188",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": null,
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "2"
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "2",
+              "ladingDescription": "Surcharge",
+              "commodityCode": null,
+              "commodityCodeQualifier": null,
+              "packagingCode": null,
+              "marksAndNumbers": null,
+              "marksAndNumbersQualifier": null,
+              "commodityCodeQualifier2": null,
+              "compartmentIdCode": null
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "2",
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "2",
+              "freightRate": "0.1800",
+              "rateValueQualifier": "CT",
+              "charge": "26314",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "FUE",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "9359.0000",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": "172502",
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": null,
+          "volumeUnitQualifier": null,
+          "ladingQuantity": null,
+          "weightUnitCode": null,
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    },
+    {
+      "transactionSetIdentifierCode": "210",
+      "transactionSetControlNumber": "0001",
+      "numberOfIncludedSegments": "22",
+      "transaction": {
+        "beginningSegmentForCarriersInvoice": {
+          "shipmentQualifier": null,
+          "invoiceNumber": "ACO395681",
+          "shipmentIdentificationNumber": null,
+          "shipmentMethodOfPayment": "PP",
+          "weightUnitCode": null,
+          "date": "20190227",
+          "netAmountDue": "164260",
+          "correctionIndicator": null,
+          "deliveryDate": "20190226",
+          "dateTimeQualifier": "035",
+          "standardCarrierAlphaCode": "ACDT",
+          "date2": null,
+          "tariffServiceCode": null,
+          "transportationTermsCode": null
+        },
+        "currency": {
+          "currencyCode": "USD",
+          "exchangeRate": null,
+          "currencyCode2": null,
+          "currencyCode3": null
+        },
+        "referenceIdentification": {
+          "referenceIdentificationQualifier": "PO",
+          "referenceIdentification": "ACO395681",
+          "freeFormDescription": null,
+          "date": null,
+          "time": null,
+          "timeCode": null,
+          "referenceIdentifier": null
+        },
+        "dateTime": {
+          "dateQualifier": "03",
+          "date": "20190227",
+          "timeQualifier": null,
+          "time": null,
+          "timeCode": null
+        },
+        "contactLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "Conoco",
+              "indentificationCodeQualifier": "1",
+              "identificationCode": "SH",
+              "entityRelationshipCode": null,
+              "entityIdentifierCode2": null
+            },
+            "addressInformation": {
+              "addressInformation": "12596 MO-39",
+              "addressInformation2": null
+            },
+            "geographicLocation": {
+              "cityName": "Mt Vernon",
+              "stateOrProvinceCode": "MO",
+              "postalCode": "65712",
+              "countryCode": null,
+              "locationQualifier": null,
+              "locationIdentifier": null
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "CN",
+              "name": "NGL Energy",
+              "indentificationCodeQualifier": "1",
+              "identificationCode": "CN",
+              "entityRelationshipCode": null,
+              "entityIdentifierCode2": null
+            },
+            "addressInformation": {
+              "addressInformation": "26029 State Highway 33",
+              "addressInformation2": null
+            },
+            "geographicLocation": {
+              "cityName": "Kingfisher",
+              "stateOrProvinceCode": "OK",
+              "postalCode": "73750",
+              "countryCode": null,
+              "locationQualifier": null,
+              "locationIdentifier": null
+            }
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "referenceIdentification": {
+              "referenceIdentificationQualifier": "BM",
+              "referenceIdentification": "876859",
+              "freeFormDescription": null,
+              "date": null,
+              "time": null,
+              "timeCode": null,
+              "referenceIdentifier": null
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "1",
+              "ladingDescription": "BK Mix",
+              "commodityCode": null,
+              "commodityCodeQualifier": null,
+              "packagingCode": null,
+              "marksAndNumbers": null,
+              "marksAndNumbersQualifier": null,
+              "commodityCodeQualifier2": null,
+              "compartmentIdCode": null
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "1",
+              "billedOrRatedAsQuantity": "8837.0000",
+              "billedOrRatedAsQualifier": "GL",
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": "1",
+              "packagingFormCode": "PCS",
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "1",
+              "freightRate": "0.15620000",
+              "rateValueQualifier": "FR",
+              "charge": "138034",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": null,
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "2"
+            },
+            "descriptionMarksAndNumbers": {
+              "ladingLineItemNumber": "2",
+              "ladingDescription": "Surcharge",
+              "commodityCode": null,
+              "commodityCodeQualifier": null,
+              "packagingCode": null,
+              "marksAndNumbers": null,
+              "marksAndNumbersQualifier": null,
+              "commodityCodeQualifier2": null,
+              "compartmentIdCode": null
+            },
+            "lineItemQuantityAndWeight": {
+              "ladingLineItemNumber": "2",
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "weight": null,
+              "weightQualifier": null,
+              "volume": null,
+              "volumeUnitQualifier": null,
+              "ladingQuantity": null,
+              "packagingFormCode": null,
+              "dunnageDescription": null,
+              "weightUnitCode": null,
+              "typeOfServiceCode": null,
+              "quantity": null,
+              "packagingFormCode2": null,
+              "yesNoConditionOrResponseCode": null
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "2",
+              "freightRate": "0.1900",
+              "rateValueQualifier": "CT",
+              "charge": "26226",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "FUE",
+              "rateClassCode": null,
+              "entitlementCode": null,
+              "chargeMethodOfPayment": null,
+              "specialChargeDescription": null,
+              "tarrifApplicationCode": null,
+              "declaredValue": null,
+              "rateValueQualifier2": null,
+              "ladingLiabilityCode": null,
+              "billedOrRatedAsQuantity": null,
+              "billedOrRatedAsQualifier": null,
+              "percent": null,
+              "currencyCode": null,
+              "amount": null
+            }
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "8837.0000",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": "164260",
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": null,
+          "volumeUnitQualifier": null,
+          "ladingQuantity": null,
+          "weightUnitCode": null,
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "2",
+    "groupControlNumber": "1"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000000001"
+  }
+}

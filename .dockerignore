@@ -1,0 +1,10 @@
+# Git
+.git
+.gitignore
+
+# Docker config files
+Dockerfile
+docker-compose.yaml
+
+# NPM deps
+node_modules

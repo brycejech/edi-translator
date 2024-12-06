@@ -1,0 +1,61 @@
+{
+    "meta": {
+        "transactionIdentifier": "990",
+        "senderInterchangeIdQualifier": "02",
+        "interchangeSenderId": "RASY",
+        "senderName": "Rains and Sons Transportation",
+        "receiverInterchangeIdQualifier": "01",
+        "interchangeReceiverId": "001339035CICS",
+        "receiverName": "KraftHeinz"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForBookingOrPickupDelivery",
+            "purpose": "",
+            "id": "B1",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                },
+                {
+                    "position": 2,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment Identification Number"
+                },
+                {
+                    "position": 3,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 4,
+                    "name": "reservationActionCode",
+                    "description": "Reservation Action Code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "referenceIdentification",
+            "purpose": "",
+            "id": "N9",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentifier",
+                    "description": "Reference Identifier"
+                }
+            ]
+        }
+    ]
+}

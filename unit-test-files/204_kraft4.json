@@ -1,0 +1,362 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "01",
+    "interchangeSenderID": "001339035CICS",
+    "receiverIDQualifier": "02",
+    "interchangeReceiverID": "RASY",
+    "interchangeDate": "190319",
+    "interchangeTime": "0941",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00401",
+    "interchangeControlNumber": "000005217",
+    "acknowledgementRequested": "0",
+    "testIndicator": "P",
+    "componentElementSeparator": ">",
+    "segmentDelimiter": "~"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "SM",
+    "applicationSendersCode": "7086462438",
+    "applicationReceiversCode": "RASY",
+    "date": "20190319",
+    "time": "0941",
+    "groupControlNumber": "5217",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "204",
+      "transactionSetControlNumber": "7604",
+      "numberOfIncludedSegments": 38,
+      "transaction": {
+        "beginningSegmentForShipmentInformationTransaction": {
+          "tariffServiceCode": null,
+          "standardCarrierAlphaCode": "RASY",
+          "standardPointLocationCode": null,
+          "shipmentIdentificationNumber": "2044907930",
+          "weightUnitCode": "L",
+          "shipmentMethodOfPayment": "PP",
+          "shipmentQualifier": "B",
+          "totalEquipment": null,
+          "shipmentWeightCode": null,
+          "customsDocumentationHandlingCode": null,
+          "transportationTermsCode": null,
+          "paymentMethodCode": null
+        },
+        "setPurpose": {
+          "transactionSetPurposeCode": "00",
+          "applicationOrLoadType": null
+        },
+        "dateTime": {
+          "dateQualifier": "64",
+          "date": "20190319",
+          "timeQualifier": "1",
+          "time": "1036",
+          "timeCode": "LT"
+        },
+        "nameLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "Kraft Heinz Foods Company",
+              "identificationCodeQualifier": "93",
+              "identificationCode": "569129",
+              "entityRelationshipCode": null,
+              "entityIdentifierCode2": null
+            },
+            "addressInformation": {
+              "addressInformation": "PO Box 982141",
+              "addressInformation2": null
+            },
+            "geographicLocatin": {
+              "cityName": "El Paso",
+              "stateOrProvinceCode": "TX",
+              "postalCode": "79998-2141",
+              "countryCode": "USA",
+              "locationQualifier": null,
+              "locationIdentifier": null
+            },
+            "contact": {
+              "contactFunctionCode": "SH",
+              "name": "LOAD PLANNER",
+              "communicationNumberQualifier": "TE",
+              "communicationNumber": "Call Dispatch Office",
+              "contactInquiryReference": null
+            }
+          }
+        ],
+        "equipmentDetailsLoop": [
+          {
+            "equipmentDetails": {
+              "equipmentInitial": null,
+              "equipmentNumber": "0",
+              "weight": "195.26",
+              "weightQualifier": "G",
+              "tareWeight": null,
+              "weightAllowance": null,
+              "dunnage": null,
+              "volume": "53665",
+              "volumeUnitQualifier": "E",
+              "ownershipCode": null,
+              "equipmentDescriptionCode": "RT",
+              "standardCarrierAlphaCode": null,
+              "temperatureCode": null,
+              "position": null,
+              "equipmentLength": "5300",
+              "tareQualifierCode": null,
+              "weightUnitCode": null,
+              "equipmentNumberCheckDigit": null,
+              "typeOfServiceCode": null,
+              "height": null,
+              "width": null,
+              "equipmentType": null,
+              "standardCarrierAlphaCode2": null,
+              "carTypeCode": null
+            }
+          }
+        ],
+        "stopOffDetailsLoop": [
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "1",
+              "stopReasonCode": "CL",
+              "weight": "19526",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "27",
+              "unitOrBasisForMeasurementCode": "CA",
+              "volume": "536.65",
+              "volumeUnitQualifier": "E",
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "businessInstructionsAndReferenceNumber": [
+              {
+                "referenceIdentification": "20449079300101",
+                "referenceIdentificationQualifier": "SI",
+                "description": null
+              },
+              {
+                "referenceIdentification": "10781",
+                "referenceIdentificationQualifier": "PO",
+                "description": null
+              }
+            ],
+            "dateTime": [
+              {
+                "dateQualifier": "10",
+                "date": "20190321",
+                "timeQualifier": "I",
+                "time": "0000",
+                "timeCode": "LT"
+              },
+              {
+                "dateQualifier": "10",
+                "date": "20190321",
+                "timeQualifier": "K",
+                "time": "2359",
+                "timeCode": "LT"
+              }
+            ],
+            "noteSpecialInstruction": [
+              {
+                "noteReferenceCode": "ADD",
+                "description": "CSC BRANDY.WILLIAMS@KRAFTHEINZ.COM PH 570 706 4199 X6308"
+              },
+              {
+                "noteReferenceCode": "ADD",
+                "description": "AWG SCHEDULING  HTTP //MGDREC.CAPSTONELOGISTICS.COM/ACTION/VIEW/WELCOM"
+              },
+              {
+                "noteReferenceCode": "ADD",
+                "description": "REF VR 03013770017"
+              },
+              {
+                "noteReferenceCode": "ADD",
+                "description": "7"
+              }
+            ],
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "SF",
+                  "name": "CHAMPAIGN REGIONAL BUFFER DU",
+                  "identificationCodeQualifier": "93",
+                  "identificationCode": "405369",
+                  "entityRelationshipCode": null,
+                  "entityIdentifierCode2": null
+                },
+                "addressInformation": {
+                  "addressInformation": "702 NORTH MATTIS AVE",
+                  "addressInformation2": null
+                },
+                "geographicLocation": {
+                  "cityName": "CHAMPAIGN",
+                  "stateOrProvinceCode": "IL",
+                  "postalCode": "61821-2201",
+                  "countryCode": "US",
+                  "locationQualifier": null,
+                  "locationIdentifier": null
+                },
+                "contact": {
+                  "contactFunctionCode": "SH",
+                  "name": "LOAD PLANNER CONTACT",
+                  "communicationNumberQualifier": "TE",
+                  "communicationNumber": "Call Dispatch Office",
+                  "contactInquiryReference": null
+                }
+              }
+            ],
+            "orderIdentificationDetailLoop": [
+              {
+                "orderIdentificationDetail": {
+                  "referenceIdentification": null,
+                  "purchaseOrderNumber": "10781",
+                  "referenceIdentification2": null,
+                  "unitOrBasisForMeasurementCode": "CA",
+                  "quantity": "27",
+                  "weightUnitCode": "L",
+                  "weight": "19526",
+                  "volumeUnitQualifier": "E",
+                  "volume": "536.65"
+                }
+              }
+            ]
+          },
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "2",
+              "stopReasonCode": "CU",
+              "weight": "19526",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "27",
+              "unitOrBasisForMeasurementCode": "CA",
+              "volume": "536.65",
+              "volumeUnitQualifier": "E",
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "businessInstructionsAndReferenceNumber": [
+              {
+                "referenceIdentification": "20449079300102",
+                "referenceIdentificationQualifier": "SI",
+                "description": null
+              },
+              {
+                "referenceIdentification": "10781",
+                "referenceIdentificationQualifier": "PO",
+                "description": null
+              }
+            ],
+            "dateTime": [
+              {
+                "dateQualifier": "68",
+                "date": "20190323",
+                "timeQualifier": "G",
+                "time": "0000",
+                "timeCode": "LT"
+              },
+              {
+                "dateQualifier": "68",
+                "date": "20190323",
+                "timeQualifier": "L",
+                "time": "2359",
+                "timeCode": "LT"
+              }
+            ],
+            "noteSpecialInstruction": [
+              {
+                "noteReferenceCode": "ADD",
+                "description": "CSC BRANDY.WILLIAMS@KRAFTHEINZ.COM PH 570 706 4199 X6308"
+              },
+              {
+                "noteReferenceCode": "ADD",
+                "description": "AWG SCHEDULING  HTTP //MGDREC.CAPSTONELOGISTICS.COM/ACTION/VIEW/WELCOM"
+              },
+              {
+                "noteReferenceCode": "ADD",
+                "description": "REF VR 03013770017"
+              },
+              {
+                "noteReferenceCode": "ADD",
+                "description": "7"
+              }
+            ],
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "ST",
+                  "name": "ASSOCIATED WHOLE GROC SCOK",
+                  "identificationCodeQualifier": "93",
+                  "identificationCode": "818130",
+                  "entityRelationshipCode": null,
+                  "entityIdentifierCode2": null
+                },
+                "addressInformation": {
+                  "addressInformation": "5600 S COUNCIL RD",
+                  "addressInformation2": null
+                },
+                "geographicLocation": {
+                  "cityName": "OKLAHOMA CITY",
+                  "stateOrProvinceCode": "OK",
+                  "postalCode": "73179",
+                  "countryCode": "US",
+                  "locationQualifier": null,
+                  "locationIdentifier": null
+                }
+              }
+            ],
+            "orderIdentificationDetailLoop": [
+              {
+                "orderIdentificationDetail": {
+                  "referenceIdentification": null,
+                  "purchaseOrderNumber": "10781",
+                  "referenceIdentification2": null,
+                  "unitOrBasisForMeasurementCode": "CA",
+                  "quantity": "27",
+                  "weightUnitCode": "L",
+                  "weight": "19526",
+                  "volumeUnitQualifier": "E",
+                  "volume": "536.65"
+                }
+              }
+            ]
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "19526",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": null,
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": "53665",
+          "volumeUnitQualifier": "E",
+          "ladingQuantity": null,
+          "weightUnitCode": null,
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "1",
+    "groupControlNumber": "5217"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000005217"
+  }
+}

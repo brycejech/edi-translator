@@ -1,0 +1,122 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "02",
+    "interchangeSenderID": "RASY",
+    "receiverIDQualifier": "ZZ",
+    "interchangeReceiverID": "MGSEABOARD",
+    "interchangeDate": "130604",
+    "interchangeTime": "1646",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00401",
+    "interchangeControlNumber": "000000340",
+    "acknowledgementRequested": "0",
+    "testIndicator": "P",
+    "componentElementSeparator": ":",
+    "segmentDelimiter": "~"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "QM",
+    "applicationSendersCode": "RASY",
+    "applicationReceiversCode": "MGSEABOARD",
+    "date": "20141004",
+    "time": "164650",
+    "groupControlNumber": "330",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "214",
+      "transactionSetControlNumber": "003300001",
+      "numberOfIncludedSegments": "13",
+      "transaction": {
+        "beginningSegmentForTransportationCarrierShipmentStatusMessage": {
+          "referenceIdentification": "10202",
+          "shipmentIdentificationNumber": "MQ777",
+          "standardAlphaCarrierCode": "RASY"
+        },
+        "businessInstructionsAndReferenceNumbers": {
+          "referenceIdentification": "TN5000",
+          "referenceIdentificationQualifier": "2I"
+        },
+        "contactLoop": [
+          {
+            "Name": {
+              "entityIdentifierCode": "CN",
+              "name": "Harvard Square"
+            },
+            "addressInformation": {
+              "addressInformation": "5 Train Boston Rd",
+              "addressInformation2": "SUITE 48"
+            },
+            "geographicLocation": {
+              "cityName": "Nashville",
+              "stateOrProvinceCode": "TN",
+              "postalCode": "37201",
+              "countryCode": "USA"
+            }
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "shipmentStatusDetailsLoop": [
+              {
+                "shipmentStatusDetails": {
+                  "shipmentStatusCode": "D1",
+                  "shipmentStatusOrAppointmentReasonCode": "NS",
+                  "shipmentAppointmentStatusCode": null,
+                  "shipmentStatusOrApptReasonCode": null,
+                  "statusDate": "20141004",
+                  "statusTime": "1500"
+                },
+                "busineesInstructionsAndReferenceNumbers": {
+                  "cityName": "Nashville",
+                  "stateOrProvince": "TN",
+                  "countryCode": "USA"
+                },
+                "equipmentOrContainerOwnerAndType": {
+                  "SCAC": "RASY",
+                  "equipmentNumber": "10"
+                }
+              }
+            ],
+            "individualOrOrganizationNameLoop": [
+              {
+                "individualOrOrganizationName": {
+                  "nameEntityIdentifierCode": "N5",
+                  "entityTypeQualifier": "1",
+                  "nameLastOrOrganizationalName": "All in Home Supplier",
+                  "firstName": "John Jackson"
+                }
+              }
+            ],
+            "shipmentPurchaseOrderDetailLoop": [
+              {
+                "shipmentPurchaseOrderDetail": {
+                  "purchaseOrderNumber": "100920041"
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "1",
+    "groupControlNumber": "330"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000000340"
+  }
+}

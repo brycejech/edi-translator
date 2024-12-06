@@ -1,0 +1,22 @@
+
+version: '3'
+
+services:
+    edi:
+        # Where to build from
+        build: server/
+        # What to name the image
+        # If build key not present, looks for image "edi-node"
+        image: edi-node
+        # What to name the container
+        container_name: edi
+        restart: always
+    nginx:
+        build: nginx/
+        image: edi-nginx
+        container_name: nginx
+        restart: always
+        ports:
+            - "80:80"
+        links:
+            - edi

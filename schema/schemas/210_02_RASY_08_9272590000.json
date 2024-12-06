@@ -1,0 +1,518 @@
+{
+    "meta": {
+        "transactionIdentifier": "210",
+        "senderInterchangeIdQualifier": "02",
+        "interchangeSenderId": "RASY",
+        "senderName": "Rains and Sons Transportation",
+        "receiverInterchangeIdQualifier": "08",
+        "interchangeReceiverId": "9272590000",
+        "receiverName": "Associated Wholesale Grocers (AWG)",
+        "receiverGSCode": "9133211313"
+    },
+    "schema": [
+        {
+            "type": "segment",
+            "name": "beginningSegmentForCarriersInvoice",
+            "purpose": "",
+            "id": "B3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "shipmentQualifier",
+                    "description": "Shipment Qualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "invoiceNumber",
+                    "description": "Invoice Number"
+                },
+                {
+                    "position": 3,
+                    "name": "shipmentIdentificationNumber",
+                    "description": "Shipment Identification Number"
+                },
+                {
+                    "position": 4,
+                    "name": "shipmentMethodOfPayment",
+                    "description": "Shipment Method of Payment"
+                },
+                {
+                    "position": 5,
+                    "name": "weightUnitCode",
+                    "description": "Weight Unit Code"
+                },
+                {
+                    "position": 6,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 7,
+                    "name": "netAmountDue",
+                    "description": "Net Amount Due"
+                },
+                {
+                    "position": 8,
+                    "name": "correctionIndicator",
+                    "description": "Correction Indicator"
+                },
+                {
+                    "position": 9,
+                    "name": "deliveryDate",
+                    "description": "Delivery Date"
+                },
+                {
+                    "position": 10,
+                    "name": "dateTimeQualifier",
+                    "description": "Date/Time Qualifier"
+                },
+                {
+                    "position": 11,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                },
+                {
+                    "position": 12,
+                    "name": "date2",
+                    "description": "Date"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "termsOfSaleOrDeferredTermsOfSale",
+            "purpose": "",
+            "id": "ITD",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "termsTypeCode",
+                    "description": "Terms Type Code"
+                },
+                {
+                    "position": 2,
+                    "name": "termsBasisDateCode",
+                    "description": "Terms Basis Date Code"
+                },
+                {
+                    "position": 3,
+                    "name": "termsDiscountPercent",
+                    "description": "Terms Discount Percent"
+                },
+                {
+                    "position": 4,
+                    "name": "termsDiscountDueDate",
+                    "description": "Terms Discount Due Date"
+                },
+                {
+                    "position": 5,
+                    "name": "termsDiscountDaysDue",
+                    "description": "Terms Discount Days Due"
+                },
+                {
+                    "position": 6,
+                    "name": "termsNetDueDate",
+                    "description": "Terms Net Due Date"
+                },
+                {
+                    "position": 7,
+                    "name": "termsNetDays",
+                    "description": "Terms Net Days"
+                },
+                {
+                    "position": 8,
+                    "name": "termsDiscountAmount",
+                    "description": "Terms Discount Amount"
+                },
+                {
+                    "position": 9,
+                    "name": "termsDeferredDueDate",
+                    "description": "Terms DeferredDueDate"
+                },
+                {
+                    "position": 10,
+                    "name": "deferredAmountDue",
+                    "description": "Deferred Amount Due"
+                },
+                {
+                    "position": 11,
+                    "name": "percentOfInvoicePayable",
+                    "description": "Percent of Invoice Payable"
+                },
+                {
+                    "position": 12,
+                    "name": "description",
+                    "description": "Description"
+                },
+                {
+                    "position": 13,
+                    "name": "dayOfMonth",
+                    "description": "Day of Month"
+                },
+                {
+                    "position": 14,
+                    "name": "paymentMethodTypeCode",
+                    "description": "Payment Method Type Code"
+                },
+                {
+                    "position": 15,
+                    "name": "percentageAsDecimal",
+                    "description": "Percentage as Decimal"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "businessInstructionsAndReferenceNumbers",
+            "purpose": "",
+            "id": "L11",
+            "max": 300,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "referenceIdentification",
+                    "description": "Reference Identification"
+                },
+                {
+                    "position": 2,
+                    "name": "referenceIdentificationQualifier",
+                    "description": "Reference Identification Qualifier"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "dateTime",
+            "purpose": "",
+            "id": "G62",
+            "max": 6,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "dateQualifier",
+                    "description": "DateQualifier"
+                },
+                {
+                    "position": 2,
+                    "name": "date",
+                    "description": "Date"
+                },
+                {
+                    "position": 3,
+                    "name": "timeQualifier",
+                    "description": "Time Qualifier"
+                },
+                {
+                    "position": 4,
+                    "name": "time",
+                    "description": "Time"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "routeInformationMotor",
+            "purpose": "",
+            "id": "R3",
+            "max": 12,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "standardCarrierAlphaCode",
+                    "description": "Standard Carrier Alpha Code"
+                },
+                {
+                    "position": 2,
+                    "name": "routingSequenceCode",
+                    "description": "Routing Sequence Code"
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "remarks",
+            "purpose": "",
+            "id": "K1",
+            "max": 10,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "freeFormMessage",
+                    "description": "Free-Form Message"
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "contactLoop",
+            "id": "N1",
+            "max": 10,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "name",
+                    "purpose": "",
+                    "id": "N1",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "entityIdentifierCode",
+                            "description": "Entity Identifier Code"
+                        },
+                        {
+                            "position": 2,
+                            "name": "name",
+                            "description": "Name"
+                        },
+                        {
+                            "position": 3,
+                            "name": "indentificationCodeQualifier",
+                            "description": "Identification Code Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "identificationCode",
+                            "description": "Identification Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "addressInformation",
+                    "purpose": "",
+                    "id": "N3",
+                    "max": 2,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "addressInformation",
+                            "description": "Address information"
+                        },
+                        {
+                            "position": 2,
+                            "name": "addressInformation2",
+                            "description": "Address information"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "geographicLocation",
+                    "purpose": "",
+                    "id": "N4",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "cityName",
+                            "description": "City name"
+                        },
+                        {
+                            "position": 2,
+                            "name": "stateOrProvinceCode",
+                            "description": "State or province code"
+                        },
+                        {
+                            "position": 3,
+                            "name": "postalCode",
+                            "description": "Postal code"
+                        },
+                        {
+                            "position": 4,
+                            "name": "countryCode",
+                            "description": "Country code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "loop",
+            "name": "assignedNumberLoop",
+            "id": "LX",
+            "max": 999,
+            "schema": [
+                {
+                    "type": "segment",
+                    "name": "assignedNumber",
+                    "id": "LX",
+                    "max": 1,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "assignedNumber",
+                            "description": "Assigned Number"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "lineItemQuantityAndWeight",
+                    "id": "L0",
+                    "max": 10,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "ladingLineItemNumber",
+                            "description": "Lading Line Item Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "billedOrRatedAsQuantity",
+                            "description": "Billed/Rated-as Quantity"
+                        },
+                        {
+                            "position": 3,
+                            "name": "billedOrRatedAsQualifier",
+                            "description": "Billed/Rated-as Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "weight",
+                            "description": "Weight"
+                        },
+                        {
+                            "position": 5,
+                            "name": "weightQualifier",
+                            "description": "Weight Qualifier"
+                        },
+                        {
+                            "position": 6,
+                            "name": "volume",
+                            "description": "Volume"
+                        },
+                        {
+                            "position": 7,
+                            "name": "volumeUnitQualifier",
+                            "description": "Volume Unit Qualifier"
+                        },
+                        {
+                            "position": 8,
+                            "name": "ladingQuantity",
+                            "description": "Lading Quantity"
+                        },
+                        {
+                            "position": 9,
+                            "name": "packagingFormCode",
+                            "description": "Packaging Form Code"
+                        }
+                    ]
+                },
+                {
+                    "type": "segment",
+                    "name": "rateAndCharges",
+                    "id": "L1",
+                    "max": 10,
+                    "elements": [
+                        {
+                            "position": 1,
+                            "name": "ladingLineItemNumber",
+                            "description": "Lading Line Item Number"
+                        },
+                        {
+                            "position": 2,
+                            "name": "freightRate",
+                            "description": "Freight Rate"
+                        },
+                        {
+                            "position": 3,
+                            "name": "rateValueQualifier",
+                            "description": "Rate/Value Qualifier"
+                        },
+                        {
+                            "position": 4,
+                            "name": "charge",
+                            "description": "Charge"
+                        },
+                        {
+                            "position": 5,
+                            "name": "advances",
+                            "description": "Advances"
+                        },
+                        {
+                            "position": 6,
+                            "name": "prepaidAmount",
+                            "description": "Prepaid Amount"
+                        },
+                        {
+                            "position": 7,
+                            "name": "rateCombinationPointCode",
+                            "description": "Rate Combination Point Code"
+                        },
+                        {
+                            "position": 8,
+                            "name": "specialChargeOrAllowanceCode",
+                            "description": "Special Charge or Allowance Code"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "segment",
+            "name": "totalWeightAndCharges",
+            "id": "L3",
+            "max": 1,
+            "elements": [
+                {
+                    "position": 1,
+                    "name": "weight",
+                    "description": "Weight"
+                },
+                {
+                    "position": 2,
+                    "name": "weightQualifier",
+                    "description": "Weight Qualifier"
+                },
+                {
+                    "position": 3,
+                    "name": "freightRate",
+                    "description": "Freight Rate"
+                },
+                {
+                    "position": 4,
+                    "name": "rateValueQualifier",
+                    "description": "Rate/Value Qualifier"
+                },
+                {
+                    "position": 5,
+                    "name": "charge",
+                    "description": "Charge"
+                },
+                {
+                    "position": 6,
+                    "name": "advances",
+                    "description": "Advances"
+                },
+                {
+                    "position": 7,
+                    "name": "prepaidAmount",
+                    "description": "Prepaid Amount"
+                },
+                {
+                    "position": 8,
+                    "name": "specialChargeOrAllowanceCode",
+                    "description": "Special Charge or Allowance Code"
+                },
+                {
+                    "position": 9,
+                    "name": "volume",
+                    "description": "Volume"
+                },
+                {
+                    "position": 10,
+                    "name": "volumeUnitQualifier",
+                    "description": "Volume Unit Qualifier"
+                },
+                {
+                    "position": 11,
+                    "name": "ladingQuantity",
+                    "description": "Lading Quantity"
+                }
+            ]
+        }
+    ]
+}

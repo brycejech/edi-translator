@@ -1,0 +1,84 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "02",
+    "interchangeSenderID": "RASY",
+    "receiverIDQualifier": "01",
+    "interchangeReceiverID": "001339035CICS",
+    "interchangeDate": "190315",
+    "interchangeTime": "1646",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00401",
+    "interchangeControlNumber": "000000341",
+    "acknowledgementRequested": "0",
+    "testIndicator": "P",
+    "componentElementSeparator": ":",
+    "segmentDelimiter": "~"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "QM",
+    "applicationSendersCode": "RASY",
+    "applicationReceiversCode": "001339035CICS",
+    "date": "20190315",
+    "time": "164651",
+    "groupControlNumber": "331",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "214",
+      "transactionSetControlNumber": "003300002",
+      "numberOfIncludedSegments": 6,
+      "transaction": {
+        "beginningSegmentForTransportationCarrierShipmentStatusMessage": {
+          "referenceIdentification": "10203",
+          "shipmentIdentificationNumber": "MQ777",
+          "standardCarrierAlphaCode": "RASY",
+          "inquiryRequestNumber": null,
+          "referenceIdentificationQualifier": null,
+          "referenceIdentification2": null,
+          "yesNoConditionOrResponseCode": null
+        },
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "shipmentStatusDetailsLoop": [
+              {
+                "shipmentStatusDetails": {
+                  "shipmentStatusCode": null,
+                  "shipmentStatusOrAppointmentReasonCode": null,
+                  "shipmentAppointmentStatusCode": "AA",
+                  "shipmentStatusOrAppointmentReasonCode2": "NA",
+                  "date": "20190315",
+                  "time": "1400",
+                  "timeCode": "LT"
+                }
+              }
+            ],
+            "businessInstructionsAndReferenceNumbers": {
+              "referenceIdentification": "20447663200101",
+              "referenceIdentificationQualifier": "SI",
+              "description": null
+            }
+          }
+        ]
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "1",
+    "groupControlNumber": "331"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000000341"
+  }
+}

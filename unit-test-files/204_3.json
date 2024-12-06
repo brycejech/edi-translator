@@ -1,0 +1,332 @@
+{
+    "interchangeControlHeader": {
+        "identifier": "ISA",
+        "elementDelimiter": "*",
+        "authorizationInformationQualifier": "00",
+        "authorizationInformation": "",
+        "securityInformationQualifier": "00",
+        "securityInformation": "",
+        "senderIDQualifier": "ZZ",
+        "interchangeSenderID": "MGSEABOARD",
+        "receiverIDQualifier": "02",
+        "interchangeReceiverID": "RASY",
+        "interchangeDate": "190131",
+        "interchangeTime": "1739",
+        "interchangeControlStandardsIdentifier": "U",
+        "interchangeControlVersionNumber": "00401",
+        "interchangeControlNumber": "000032847",
+        "acknowledgementRequested": "0",
+        "testIndicator": "P",
+        "componentElementSeparator": ":",
+        "segmentDelimiter": "~"
+    },
+    "functionalGroupHeader": {
+        "functionalIdentifierCode": "SM",
+        "applicationSendersCode": "MGSEABOARD",
+        "applicationReceiversCode": "RASY",
+        "date": "20190131",
+        "time": "173920",
+        "groupControlNumber": "8560",
+        "responsibleAgencyCode": "X",
+        "versionReleaseIndustryIdentifierCode": "004010"
+    },
+    "transactions": [
+        {
+            "transactionSetIdentifierCode": "204",
+            "transactionSetControlNumber": "085600001",
+            "numberOfIncludedSegments": "48",
+            "transaction": {
+                "beginningSegmentForShipmentInformationTransaction": {
+                    "standardCarrierAlphaCode": "RASY",
+                    "shipmentIdentificationNumber": "4085753",
+                    "shipmentMethodOfPayment": "PP"
+                },
+                "setPurpose": {
+                    "transacionSetPurposeCode": "00",
+                    "applicationType": "LT"
+                },
+                "billOfLadingHandlingRequirements": {
+                    "specialHandlingCode": null,
+                    "specialServicesCode": "FZN",
+                    "specialHandlingDescription": null
+                },
+                "noteSpecialInstruction": {
+                    "noteReferenceCode": null,
+                    "description": "Special Instructions   . Shipping Instructions ."
+                },
+                "contactLoop": [
+                    {
+                        "name": {
+                            "entityIdentifierCode": "BT",
+                            "name": "Seaboard Foods",
+                            "identificationCodeQualifier": "93",
+                            "identificationCode": "LOC90"
+                        },
+                        "addressInformation": {
+                            "addressInformation": "9000 West 67th Street",
+                            "addressInformation2": null
+                        },
+                        "geographicLocation": {
+                            "cityName": "Shawnee Mission",
+                            "stateOrProvinceCode": "KS",
+                            "postalCode": "662023638",
+                            "countryCode": "USA"
+                        },
+                        "contact": {
+                            "contactFunctionCode": "IC",
+                            "name": "Rebecca Smith",
+                            "communicationNumberQualifier": "TE",
+                            "contactInquiryReference": "913-676-8884"
+                        }
+                    }
+                ],
+                "stopOffDetailsLoop": [
+                    {
+                        "stopOffDetails": {
+                            "stopSequenceNumber": "1",
+                            "stopReasonCode": "CL"
+                        },
+                        "businessInstructionsAndReferenceNumber": [
+                            {
+                                "referenceIdentification": "1786106",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "FS1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "Domestic",
+                                "referenceIdentificationQualifier": "ST",
+                                "description": "Movement Type"
+                            },
+                            {
+                                "referenceIdentification": "02/09/2019 21 51",
+                                "referenceIdentificationQualifier": "LO",
+                                "description": "Deadline Departure"
+                            },
+                            {
+                                "referenceIdentification": "CLR327055",
+                                "referenceIdentificationQualifier": "RH",
+                                "description": "Route ID"
+                            },
+                            {
+                                "referenceIdentification": "-10.0 F",
+                                "referenceIdentificationQualifier": "MT",
+                                "description": "Max Temp"
+                            },
+                            {
+                                "referenceIdentification": "TL",
+                                "referenceIdentificationQualifier": "MD",
+                                "description": "Mode"
+                            },
+                            {
+                                "referenceIdentification": "11201",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "CLR327055",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            }
+                        ],
+                        "dateTime": [
+                            {
+                                "dateQualifier": "37",
+                                "date": "20190207",
+                                "timeQualifier": "I",
+                                "time": "0000"
+                            },
+                            {
+                                "dateQualifier": "38",
+                                "date": "20190207",
+                                "timeQualifier": "K",
+                                "time": "2359"
+                            }
+                        ],
+                        "shipmentWeightPackagingAndQuantityData": {
+                            "weightQualifier": "G",
+                            "weightCodeUnit": "L",
+                            "weight": "42186",
+                            "ladingQuantity": "1335"
+                        },
+                        "nameLoop": [
+                            {
+                                "name": {
+                                    "entityIdentifierCode": "SH",
+                                    "name": "Americold",
+                                    "identificationCodeQualifier": "93",
+                                    "identificationCode": "FS1"
+                                },
+                                "addressInformation": {
+                                    "addressInformation": "10300 SE 3rd Street",
+                                    "addressInformation2": null
+                                },
+                                "geographicLocation": {
+                                    "cityName": "Amarillo",
+                                    "stateOrProvinceCode": "TX",
+                                    "postalCode": "79118",
+                                    "countryCode": "USA"
+                                }
+                            }
+                        ],
+                        "descriptionMarksAndNumbersLoop": [
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Bone In Pork Hind Feet Box",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1786106",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "42186",
+                                    "ladingQuantity": "1335"
+                                }
+                            }
+                        ]
+                    },
+                    {
+                        "stopOffDetails": {
+                            "stopSequenceNumber": "2",
+                            "stopReasonCode": "CU"
+                        },
+                        "businessInstructionsAndReferenceNumber": [
+                            {
+                                "referenceIdentification": "1786106",
+                                "referenceIdentificationQualifier": "OQ",
+                                "description": "Order"
+                            },
+                            {
+                                "referenceIdentification": "FS1",
+                                "referenceIdentificationQualifier": "OW",
+                                "description": "Origin Warehouse"
+                            },
+                            {
+                                "referenceIdentification": "Domestic",
+                                "referenceIdentificationQualifier": "ST",
+                                "description": "Movement Type"
+                            },
+                            {
+                                "referenceIdentification": "02/09/2019 21 51",
+                                "referenceIdentificationQualifier": "LO",
+                                "description": "Deadline Departure"
+                            },
+                            {
+                                "referenceIdentification": "CLR327055",
+                                "referenceIdentificationQualifier": "RH",
+                                "description": "Route ID"
+                            },
+                            {
+                                "referenceIdentification": "-10.0 F",
+                                "referenceIdentificationQualifier": "MT",
+                                "description": "Max Temp"
+                            },
+                            {
+                                "referenceIdentification": "TL",
+                                "referenceIdentificationQualifier": "MD",
+                                "description": "Mode"
+                            },
+                            {
+                                "referenceIdentification": "11201",
+                                "referenceIdentificationQualifier": "PO",
+                                "description": "Customer PO"
+                            },
+                            {
+                                "referenceIdentification": "CLR327055",
+                                "referenceIdentificationQualifier": "CR",
+                                "description": "Customer Load ID"
+                            }
+                        ],
+                        "dateTime": [
+                            {
+                                "dateQualifier": "53",
+                                "date": "20190211",
+                                "timeQualifier": "G",
+                                "time": "0800"
+                            },
+                            {
+                                "dateQualifier": "54",
+                                "date": "20190211",
+                                "timeQualifier": "L",
+                                "time": "0800"
+                            }
+                        ],
+                        "shipmentWeightPackagingAndQuantityData": {
+                            "weightQualifier": "G",
+                            "weightCodeUnit": "L",
+                            "weight": "42186",
+                            "ladingQuantity": "1335"
+                        },
+                        "nameLoop": [
+                            {
+                                "name": {
+                                    "entityIdentifierCode": "CN",
+                                    "name": "Harvest King Trading USA Ltd",
+                                    "identificationCodeQualifier": null,
+                                    "identificationCode": null
+                                },
+                                "addressInformation": {
+                                    "addressInformation": "1301 S Sunkist St",
+                                    "addressInformation2": null
+                                },
+                                "geographicLocation": {
+                                    "cityName": "Anaheim",
+                                    "stateOrProvinceCode": "CA",
+                                    "postalCode": "92806",
+                                    "countryCode": "USA"
+                                },
+                                "contact": {
+                                    "contactFunctionCode": "IC",
+                                    "name": "Receiver",
+                                    "communicationNumberQualifier": "TE",
+                                    "contactInquiryReference": "714-780-1722"
+                                }
+                            }
+                        ],
+                        "descriptionMarksAndNumbersLoop": [
+                            {
+                                "descriptionMarksAndNumbers": {
+                                    "ladingDescription": "Bone In Pork Hind Feet Box",
+                                    "commodityCode": null,
+                                    "commodityCodeQualifier": null,
+                                    "packagingCode": "BX",
+                                    "marksAndNumbers": "1786106",
+                                    "marksAndNumbersQualifier": "SI"
+                                },
+                                "shipmentWeightPackagingAndQuantityData": {
+                                    "weightQualifier": "G",
+                                    "weightCodeUnit": "L",
+                                    "weight": "42186",
+                                    "ladingQuantity": "1335"
+                                }
+                            }
+                        ]
+                    }
+                ],
+                "totalWeightAndCharges": {
+                    "weight": "42186",
+                    "weightQualifier": "G",
+                    "freightRate": "2377.08",
+                    "rateValueQualifier": "FR",
+                    "charge": "237708",
+                    "ladingQuantity": "1335"
+                }
+            }
+        }
+    ],
+    "functionalGroupTrailer": {
+        "numberOfTransactionSetsIncluded": "1",
+        "groupControlNumber": "8560"
+    },
+    "interchangeControlTrailer": {
+        "numberOfIncludedFunctionalGroups": "1",
+        "interchangeControlNumber": "000032847"
+    }
+}

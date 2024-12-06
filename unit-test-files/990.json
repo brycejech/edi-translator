@@ -1,0 +1,60 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "02",
+    "interchangeSenderID": "RASY",
+    "receiverIDQualifier": "ZZ",
+    "interchangeReceiverID": "MGSEABOARD",
+    "interchangeDate": "190222",
+    "interchangeTime": "1049",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00400",
+    "interchangeControlNumber": "000029257",
+    "acknowledgementRequested": "0",
+    "testIndicator": "P",
+    "componentElementSeparator": ">",
+    "segmentDelimiter": "�"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "GF",
+    "applicationSendersCode": "RASY",
+    "applicationReceiversCode": "MGSEABOARD",
+    "date": "20190222",
+    "time": "1049",
+    "groupControlNumber": "29257",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "990",
+      "transactionSetControlNumber": "292570001",
+      "numberOfIncludedSegments": "4",
+      "transaction": {
+        "beginningSegmentForBookingOrPickupDelivery": {
+          "standardCarrierAlphaCode": "RASY",
+          "shipmentIdentificationNumber": "4094717",
+          "date": "20190222",
+          "reservationActionCode": "A"
+        },
+        "referenceIdentification": {
+          "referenceIdentificationQualifier": "CN",
+          "referenceIdentification": "0096904"
+        }
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "1",
+    "groupControlNumber": "29257"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000029257"
+  }
+}

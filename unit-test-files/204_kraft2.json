@@ -1,0 +1,327 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "01",
+    "interchangeSenderID": "001339035CICS",
+    "receiverIDQualifier": "02",
+    "interchangeReceiverID": "RASY",
+    "interchangeDate": "190318",
+    "interchangeTime": "1916",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00401",
+    "interchangeControlNumber": "000005216",
+    "acknowledgementRequested": "0",
+    "testIndicator": "P",
+    "componentElementSeparator": ">",
+    "segmentDelimiter": "~"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "SM",
+    "applicationSendersCode": "7086462438",
+    "applicationReceiversCode": "RASY",
+    "date": "20190318",
+    "time": "1916",
+    "groupControlNumber": "5216",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "004010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "204",
+      "transactionSetControlNumber": "7603",
+      "numberOfIncludedSegments": 31,
+      "transaction": {
+        "beginningSegmentForShipmentInformationTransaction": {
+          "tariffServiceCode": null,
+          "standardCarrierAlphaCode": "RASY",
+          "standardPointLocationCode": null,
+          "shipmentIdentificationNumber": "2044902850",
+          "weightUnitCode": "L",
+          "shipmentMethodOfPayment": "PP",
+          "shipmentQualifier": "B",
+          "totalEquipment": null,
+          "shipmentWeightCode": null,
+          "customsDocumentationHandlingCode": null,
+          "transportationTermsCode": null,
+          "paymentMethodCode": null
+        },
+        "setPurpose": {
+          "transactionSetPurposeCode": "01",
+          "applicationOrLoadType": null
+        },
+        "nameLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "Kraft Heinz Foods Company",
+              "identificationCodeQualifier": "93",
+              "identificationCode": "569129",
+              "entityRelationshipCode": null,
+              "entityIdentifierCode2": null
+            },
+            "addressInformation": {
+              "addressInformation": "PO Box 982141",
+              "addressInformation2": null
+            },
+            "geographicLocatin": {
+              "cityName": "El Paso",
+              "stateOrProvinceCode": "TX",
+              "postalCode": "79998-2141",
+              "countryCode": "USA",
+              "locationQualifier": null,
+              "locationIdentifier": null
+            },
+            "contact": {
+              "contactFunctionCode": "SH",
+              "name": "LOAD PLANNER",
+              "communicationNumberQualifier": "TE",
+              "communicationNumber": "Call Dispatch Office",
+              "contactInquiryReference": null
+            }
+          }
+        ],
+        "equipmentDetailsLoop": [
+          {
+            "equipmentDetails": {
+              "equipmentInitial": null,
+              "equipmentNumber": "0",
+              "weight": "430",
+              "weightQualifier": "G",
+              "tareWeight": null,
+              "weightAllowance": null,
+              "dunnage": null,
+              "volume": "200000",
+              "volumeUnitQualifier": "E",
+              "ownershipCode": null,
+              "equipmentDescriptionCode": "RT",
+              "standardCarrierAlphaCode": null,
+              "temperatureCode": null,
+              "position": null,
+              "equipmentLength": "5300",
+              "tareQualifierCode": null,
+              "weightUnitCode": null,
+              "equipmentNumberCheckDigit": null,
+              "typeOfServiceCode": null,
+              "height": null,
+              "width": null,
+              "equipmentType": null,
+              "standardCarrierAlphaCode2": null,
+              "carTypeCode": null
+            }
+          }
+        ],
+        "stopOffDetailsLoop": [
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "1",
+              "stopReasonCode": "CL",
+              "weight": "43000",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "1",
+              "unitOrBasisForMeasurementCode": "CA",
+              "volume": "2000",
+              "volumeUnitQualifier": "E",
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "businessInstructionsAndReferenceNumber": [
+              {
+                "referenceIdentification": "20449028500101",
+                "referenceIdentificationQualifier": "SI",
+                "description": null
+              },
+              {
+                "referenceIdentification": "3862158615",
+                "referenceIdentificationQualifier": "PO",
+                "description": null
+              }
+            ],
+            "dateTime": [
+              {
+                "dateQualifier": "10",
+                "date": "20190321",
+                "timeQualifier": "I",
+                "time": "0000",
+                "timeCode": "LT"
+              },
+              {
+                "dateQualifier": "10",
+                "date": "20190321",
+                "timeQualifier": "K",
+                "time": "2359",
+                "timeCode": "LT"
+              }
+            ],
+            "noteSpecialInstruction": {
+              "noteReferenceCode": "ADD",
+              "description": "7"
+            },
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "SF",
+                  "name": "CHAMPAIGN REGIONAL BUFFER DU",
+                  "identificationCodeQualifier": "93",
+                  "identificationCode": "405369",
+                  "entityRelationshipCode": null,
+                  "entityIdentifierCode2": null
+                },
+                "addressInformation": {
+                  "addressInformation": "702 NORTH MATTIS AVE",
+                  "addressInformation2": null
+                },
+                "geographicLocation": {
+                  "cityName": "CHAMPAIGN",
+                  "stateOrProvinceCode": "IL",
+                  "postalCode": "61821-2201",
+                  "countryCode": "US",
+                  "locationQualifier": null,
+                  "locationIdentifier": null
+                },
+                "contact": {
+                  "contactFunctionCode": "SH",
+                  "name": "LOAD PLANNER CONTACT",
+                  "communicationNumberQualifier": "TE",
+                  "communicationNumber": "Call Dispatch Office",
+                  "contactInquiryReference": null
+                }
+              }
+            ],
+            "orderIdentificationDetailLoop": [
+              {
+                "orderIdentificationDetail": {
+                  "referenceIdentification": null,
+                  "purchaseOrderNumber": "3862158615",
+                  "referenceIdentification2": null,
+                  "unitOrBasisForMeasurementCode": "CA",
+                  "quantity": "1",
+                  "weightUnitCode": "L",
+                  "weight": "43000",
+                  "volumeUnitQualifier": "E",
+                  "volume": "2000"
+                }
+              }
+            ]
+          },
+          {
+            "stopOffDetails": {
+              "stopSequenceNumber": "2",
+              "stopReasonCode": "CU",
+              "weight": "43000",
+              "weightUnitCode": "L",
+              "numberOfUnitsShipped": "1",
+              "unitOrBasisForMeasurementCode": "CA",
+              "volume": "2000",
+              "volumeUnitQualifier": "E",
+              "description": null,
+              "standardPointLocationCode": null,
+              "accomplishCode": null
+            },
+            "businessInstructionsAndReferenceNumber": [
+              {
+                "referenceIdentification": "20449028500102",
+                "referenceIdentificationQualifier": "SI",
+                "description": null
+              },
+              {
+                "referenceIdentification": "3862158615",
+                "referenceIdentificationQualifier": "PO",
+                "description": null
+              }
+            ],
+            "dateTime": [
+              {
+                "dateQualifier": "68",
+                "date": "20190323",
+                "timeQualifier": "G",
+                "time": "0000",
+                "timeCode": "LT"
+              },
+              {
+                "dateQualifier": "68",
+                "date": "20190323",
+                "timeQualifier": "L",
+                "time": "2359",
+                "timeCode": "LT"
+              }
+            ],
+            "noteSpecialInstruction": {
+              "noteReferenceCode": "ADD",
+              "description": "7"
+            },
+            "nameLoop": [
+              {
+                "name": {
+                  "entityIdentifierCode": "ST",
+                  "name": "FT WORTH TX DRY MC",
+                  "identificationCodeQualifier": "93",
+                  "identificationCode": "298581",
+                  "entityRelationshipCode": null,
+                  "entityIdentifierCode2": null
+                },
+                "addressInformation": {
+                  "addressInformation": "90 TRADEWIND DRIVE",
+                  "addressInformation2": null
+                },
+                "geographicLocation": {
+                  "cityName": "FORT WORTH",
+                  "stateOrProvinceCode": "TX",
+                  "postalCode": "76177-3900",
+                  "countryCode": "US",
+                  "locationQualifier": null,
+                  "locationIdentifier": null
+                }
+              }
+            ],
+            "orderIdentificationDetailLoop": [
+              {
+                "orderIdentificationDetail": {
+                  "referenceIdentification": null,
+                  "purchaseOrderNumber": "3862158615",
+                  "referenceIdentification2": null,
+                  "unitOrBasisForMeasurementCode": "CA",
+                  "quantity": "1",
+                  "weightUnitCode": "L",
+                  "weight": "43000",
+                  "volumeUnitQualifier": "E",
+                  "volume": "2000"
+                }
+              }
+            ]
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "43000",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": null,
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": "200000",
+          "volumeUnitQualifier": "E",
+          "ladingQuantity": null,
+          "weightUnitCode": null,
+          "tariffNumber": null,
+          "declaredValue": null,
+          "rateValueQualifier2": null
+        }
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "1",
+    "groupControlNumber": "5216"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000005216"
+  }
+}

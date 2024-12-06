@@ -1,0 +1,227 @@
+{
+  "interchangeControlHeader": {
+    "identifier": "ISA",
+    "elementDelimiter": "*",
+    "authorizationInformationQualifier": "00",
+    "authorizationInformation": "",
+    "securityInformationQualifier": "00",
+    "securityInformation": "",
+    "senderIDQualifier": "02",
+    "interchangeSenderID": "RASY",
+    "receiverIDQualifier": "08",
+    "interchangeReceiverID": "9272590000",
+    "interchangeDate": "170315",
+    "interchangeTime": "0846",
+    "interchangeControlStandardsIdentifier": "U",
+    "interchangeControlVersionNumber": "00501",
+    "interchangeControlNumber": "000000004",
+    "acknowledgementRequested": "0",
+    "testIndicator": "T",
+    "componentElementSeparator": ">",
+    "segmentDelimiter": "~"
+  },
+  "functionalGroupHeader": {
+    "functionalIdentifierCode": "IM",
+    "applicationSendersCode": "RASY",
+    "applicationReceiversCode": "9133211313",
+    "date": "20170315",
+    "time": "0846",
+    "groupControlNumber": "000000004",
+    "responsibleAgencyCode": "X",
+    "versionReleaseIndustryIdentifierCode": "005010"
+  },
+  "transactions": [
+    {
+      "transactionSetIdentifierCode": "210",
+      "transactionSetControlNumber": "0001",
+      "numberOfIncludedSegments": 25,
+      "transaction": {
+        "beginningSegmentForCarriersInvoice": {
+          "shipmentQualifier": "B",
+          "invoiceNumber": "000000000",
+          "shipmentIdentificationNumber": "CMV1234567",
+          "shipmentMethodOfPayment": "PP",
+          "weightUnitCode": "L",
+          "date": "20170315",
+          "netAmountDue": "11111",
+          "correctionIndicator": null,
+          "deliveryDate": null,
+          "dateTimeQualifier": null,
+          "standardCarrierAlphaCode": "WFMN",
+          "date2": "20170321"
+        },
+        "termsOfSaleOrDeferredTermsOfSale": {
+          "termsTypeCode": "01",
+          "termsBasisDateCode": "2",
+          "termsDiscountPercent": null,
+          "termsDiscountDueDate": null,
+          "termsDiscountDaysDue": null,
+          "termsNetDueDate": "20170428",
+          "termsNetDays": "30",
+          "termsDiscountAmount": null,
+          "termsDeferredDueDate": null,
+          "deferredAmountDue": null,
+          "percentOfInvoicePayable": null,
+          "description": null,
+          "dayOfMonth": null,
+          "paymentMethodTypeCode": null,
+          "percentageAsDecimal": null
+        },
+        "businessInstructionsAndReferenceNumbers": {
+          "referenceIdentification": "4000000000",
+          "referenceIdentificationQualifier": "PO"
+        },
+        "dateTime": {
+          "dateQualifier": "86",
+          "date": "20170430",
+          "timeQualifier": "9",
+          "time": "15000000"
+        },
+        "routeInformationMotor": {
+          "standardCarrierAlphaCode": "WFMN",
+          "routingSequenceCode": "B"
+        },
+        "remarks": {
+          "freeFormMessage": "TRK"
+        },
+        "contactLoop": [
+          {
+            "name": {
+              "entityIdentifierCode": "SH",
+              "name": "SAMPLE",
+              "indentificationCodeQualifier": "91",
+              "identificationCode": "WFMN"
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "CN",
+              "name": "AWG",
+              "indentificationCodeQualifier": "9",
+              "identificationCode": "0000000000000"
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "SF",
+              "name": "SAMPLE",
+              "indentificationCodeQualifier": "91",
+              "identificationCode": "XXXXXXXXXXXXX"
+            },
+            "addressInformation": {
+              "addressInformation": "123 SAMPLE",
+              "addressInformation2": null
+            },
+            "geographicLocation": {
+              "cityName": "SAMPLE",
+              "stateOrProvinceCode": "CA",
+              "postalCode": "92509",
+              "countryCode": "USA"
+            }
+          },
+          {
+            "name": {
+              "entityIdentifierCode": "ST",
+              "name": "SAMPLE",
+              "indentificationCodeQualifier": "91",
+              "identificationCode": "12345"
+            },
+            "addressInformation": {
+              "addressInformation": "123 SAMPLE",
+              "addressInformation2": null
+            },
+            "geographicLocation": {
+              "cityName": "SAMPLE",
+              "stateOrProvinceCode": "CA",
+              "postalCode": "92507",
+              "countryCode": "USA"
+            }
+          }
+        ],
+        "assignedNumberLoop": [
+          {
+            "assignedNumber": {
+              "assignedNumber": "1"
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "1",
+              "freightRate": "285",
+              "rateValueQualifier": "PH",
+              "charge": "28500",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "FCD"
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "2"
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "2",
+              "freightRate": "35",
+              "rateValueQualifier": "PW",
+              "charge": "9975",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "FUE"
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "3"
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "3",
+              "freightRate": null,
+              "rateValueQualifier": null,
+              "charge": "13008",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "UND"
+            }
+          },
+          {
+            "assignedNumber": {
+              "assignedNumber": "4"
+            },
+            "rateAndCharges": {
+              "ladingLineItemNumber": "4",
+              "freightRate": null,
+              "rateValueQualifier": null,
+              "charge": "24000",
+              "advances": null,
+              "prepaidAmount": null,
+              "rateCombinationPointCode": null,
+              "specialChargeOrAllowanceCode": "UND"
+            }
+          }
+        ],
+        "totalWeightAndCharges": {
+          "weight": "11329",
+          "weightQualifier": "G",
+          "freightRate": null,
+          "rateValueQualifier": null,
+          "charge": "75483",
+          "advances": null,
+          "prepaidAmount": null,
+          "specialChargeOrAllowanceCode": null,
+          "volume": null,
+          "volumeUnitQualifier": null,
+          "ladingQuantity": "1269"
+        }
+      }
+    }
+  ],
+  "functionalGroupTrailer": {
+    "numberOfTransactionSetsIncluded": "1",
+    "groupControlNumber": "000000004"
+  },
+  "interchangeControlTrailer": {
+    "numberOfIncludedFunctionalGroups": "1",
+    "interchangeControlNumber": "000000004"
+  }
+}
